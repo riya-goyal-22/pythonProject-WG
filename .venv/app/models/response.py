@@ -13,3 +13,7 @@ class CustomResponse:
             'message': self.message,
             'data': self.data
         }
+
+    @classmethod
+    def from_dict(cls, data_dict):
+        return cls(**data_dict)

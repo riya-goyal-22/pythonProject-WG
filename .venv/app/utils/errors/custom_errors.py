@@ -16,11 +16,18 @@ class InvalidCredentialsError(UserError):
     def __init__(self, message: str):
         super().__init__(f"{message}")
 
-class NGOExistsError(Exception):
+
+class NGOError(Exception):
+    """ Base exception class for all ngo-related errors """
+    pass
+
+
+class NGOExistsError(NGOError):
     """ Raised when email conflict for two ngos """
 
-    def __init__(self,message):
+    def __init__(self, message):
         super().__init__(message)
+
 
 class DatabaseError(Exception):
     """Base exception class for all database-related errors"""
@@ -42,10 +49,12 @@ class InvalidOperationError(Exception):
     def __init__(self, message: str):
         super().__init__(message)
 
+
 class TokenExpiredError(Exception):
     """Base exception class for expired token"""
     def __init__(self):
         super().__init__("Token expired")
+
 
 class TokenInvalidError(Exception):
     """Base exception class for invalid token"""

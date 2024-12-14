@@ -1,18 +1,17 @@
-import jwt
+from app.config.config import TOKEN_MISSING, TOKEN_INVALID, TOKEN_EXPIRED
 from app.models.response import CustomResponse
 from app.utils.errors.custom_errors import TokenExpiredError, TokenInvalidError
 from flask import request, jsonify, g
-
 from app.utils.utilities.token import decode_token
 
 
 def auth_middleware():
-    if request.path in ['/user/login', '/user/signup','/']:
+    if request.path in ['/user/login', '/user/signup', '/']:
         return None
 
     auth_token = request.headers.get('Authorization')
     if not auth_token or not auth_token.startswith('Bearer '):
-        return jsonify(CustomResponse(401,"Unauthorized-Missing Token",None).to_dict()), 401
+        return CustomResponse(TOKEN_MISSING, "Unauthorized-Missing Token", None).to_dict(), 401
 
     token = auth_token.split(' ')[1]
     try:
@@ -24,13 +23,13 @@ def auth_middleware():
         role = decoded_token.get("role")
 
         if not user_id or not role:
-            return jsonify(CustomResponse(401,"Unauthorized, invalid token payload",None).to_dict()), 401
+            return CustomResponse(TOKEN_INVALID, "Unauthorized, invalid token payload", None).to_dict(), 401
 
         # Set user_id and role in Flask's global context
         g.user_id = user_id
         g.role = role
 
     except TokenExpiredError as e:
-        return jsonify(CustomResponse(401,str(e),None).to_dict()), 401
+        return CustomResponse(TOKEN_EXPIRED, str(e), None).to_dict(), 401
     except TokenInvalidError as e:
-        return jsonify(CustomResponse(401,str(e),None).to_dict()), 401
+        return CustomResponse(TOKEN_INVALID, str(e), None).to_dict(), 401

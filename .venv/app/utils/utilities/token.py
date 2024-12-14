@@ -1,18 +1,19 @@
 import jwt
 import datetime
 from app.config.config import SECRET_KEY
-from app.utils.errors.custom_errors import TokenExpiredError,TokenInvalidError
+from app.utils.errors.custom_errors import TokenExpiredError, TokenInvalidError
 
 
 def generate_token(id: str, email: str, role: str):
     payload = {
         'user_id': id,
         'email': email,
-        'role':role,
+        'role': role,
         'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=1)
     }
     token = jwt.encode(payload, SECRET_KEY, algorithm='HS256')
     return token
+
 
 def decode_token(token: str) -> dict:
     try:

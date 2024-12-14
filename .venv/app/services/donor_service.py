@@ -8,7 +8,7 @@ from app.services.user_service import UserService
 
 class DonorService(UserService):
     def __init__(self, user_repo: UserRepository, ngo_repo: NGORepository):
-        super().__init__(user_repo,ngo_repo)
+        super().__init__(user_repo, ngo_repo)
 
     def signup(self, user: User):
         if self.user_repo.get_user_by_email(user.email) is not None:
@@ -17,9 +17,3 @@ class DonorService(UserService):
         user.password = encrypter.hash_password(user.password)
         self.user_repo.create_user(user)
         return user
-
-
-
-
-
-

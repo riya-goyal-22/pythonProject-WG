@@ -1,5 +1,4 @@
 import sqlite3
-import app.utils.db.db as db
 import app.config.config as config
 
 connection = sqlite3.connect(config.DB_ADDRESS)

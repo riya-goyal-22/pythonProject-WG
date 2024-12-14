@@ -1,10 +1,11 @@
 from flask import Blueprint
 from app.handlers.admin_handler import AdminHandler
 
+
 class AdminRoutes:
-    def __init__(self,admin_handler: AdminHandler):
+    def __init__(self, admin_handler: AdminHandler):
         self.handler = admin_handler
-        self.blueprint = Blueprint('admin',__name__)
+        self.blueprint = Blueprint('admin', __name__)
 
     def register_routes(self):
         self.blueprint.add_url_rule(

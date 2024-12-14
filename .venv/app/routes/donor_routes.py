@@ -3,7 +3,7 @@ from flask import Blueprint
 
 
 class DonorRoutes:
-    def __init__(self,donor_handler: DonorHandler):
+    def __init__(self, donor_handler: DonorHandler):
         self.handler = donor_handler
 
     def register_routes(self):

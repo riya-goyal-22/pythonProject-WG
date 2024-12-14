@@ -1,10 +1,11 @@
 import uuid
-from app.enums.role import Role
+from app.utils.enums.role import Role
+
 
 class User:
     def __init__(self, name: str, email: str, password: str, phone_no: str, address: str, id: str = None,
                  role: str = Role.DONOR.value):
-        self.id = id if id!=None else str(uuid.uuid4())
+        self.id = id if id is not None else str(uuid.uuid4())
         self.name = name
         self.email = email
         self.password = password
@@ -13,7 +14,6 @@ class User:
         self.role = role
 
     def to_dict(self):
-        """Convert User instance to dictionary."""
         return {
             "id": self.id,
             "name": self.name,
@@ -24,3 +24,6 @@ class User:
             "role": self.role
         }
 
+    @classmethod
+    def from_dict(cls, data_dict):
+        return cls(**data_dict)

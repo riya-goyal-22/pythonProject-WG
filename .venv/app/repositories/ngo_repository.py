@@ -6,7 +6,7 @@ from app.utils.errors.custom_errors import DatabaseError, NotExistsError
 
 
 class NGORepository:
-    def __init__(self,db: sqlite3.Connection):
+    def __init__(self, db: sqlite3.Connection):
         self.db = db
         self.query_builder = SQLiteQueryBuilder('ngos')
 
@@ -20,7 +20,7 @@ class NGORepository:
                 if rows:
                     for row in rows:
                         ngos.append(NGO(
-                            id = row['id'],
+                            id=row['id'],
                             phone_no=row['phone_no'],
                             name=row['name'],
                             email=row['email'],
@@ -32,10 +32,10 @@ class NGORepository:
         except Exception as e:
             raise DatabaseError(str(e))
 
-    def get_ngo_by_id(self,id: str):
+    def get_ngo_by_id(self, id: str):
         try:
             with self.db:
-                where = {'id':id}
+                where = {'id': id}
                 result = self.query_builder.select(where=where)
                 cursor = SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
                 row = cursor.fetchone()
@@ -55,10 +55,10 @@ class NGORepository:
         except Exception as e:
             raise DatabaseError(str(e))
 
-    def get_ngo_by_email(self,email: str):
+    def get_ngo_by_email(self, email: str):
         try:
             with self.db:
-                where = {'email':email}
+                where = {'email': email}
                 result = self.query_builder.select(where=where)
                 cursor = SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
                 row = cursor.fetchone()
@@ -76,29 +76,32 @@ class NGORepository:
         except Exception as e:
             raise DatabaseError(str(e))
 
-    def create_ngo(self,ngo: NGO):
+    def create_ngo(self, ngo: NGO):
         try:
             with self.db:
                 data = ngo.to_dict()
                 result = self.query_builder.insert(data)
-                cursor = SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
+                SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
 
         except Exception as e:
             raise DatabaseError(str(e))
 
-    def delete_ngo_by_id(self,id: str):
+    def delete_ngo_by_id(self, id: str):
         try:
             with self.db:
-                where = {'id':id}
+                where = {'id': id}
                 result = self.query_builder.delete(where=where)
                 cursor = SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
                 if cursor.rowcount == 0:
                     raise NotExistsError("Ngo Id does not exist")
 
+        except NotExistsError as e:
+            raise NotExistsError(str(e))
+
         except Exception as e:
             raise DatabaseError(str(e))
 
-    def update_ngo_by_id(self,ngo:NGO):
+    def update_ngo_by_id(self, ngo: NGO):
         try:
             with self.db:
                 col = {
@@ -109,10 +112,13 @@ class NGORepository:
                     'phone_no': ngo.phone_no
                 }
                 where = {'id': ngo.id}
-                result = self.query_builder.update(data=col,where=where)
+                result = self.query_builder.update(data=col, where=where)
                 cursor = SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
                 if cursor.rowcount == 0:
                     raise NotExistsError("Ngo Id does not exist")
+
+        except NotExistsError as e:
+            raise NotExistsError(str(e))
 
         except Exception as e:
             raise DatabaseError(str(e))

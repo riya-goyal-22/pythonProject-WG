@@ -1,0 +1,2415 @@
+2024-12-13 15:22:04,309 - INFO - {
+    "timestamp": "2024-12-13 15:22:04",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "7e5d4961-41ca-47c9-86c5-6d8d022d7a4d",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "71"
+    },
+    "query_params": {},
+    "body": {
+        "email": "riyagoyal938@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:22:04,549 - INFO - {
+    "timestamp": "2024-12-13 15:22:04",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYWY4NDFkZGQtN2Q2My00Zjc0LTkyMTAtZDY0ZmMxM2RiMzZhIiwiZW1haWwiOiJyaXlhZ295YWw5MzhAZ21haWwuY29tIiwicm9sZSI6ImRvbm9yIiwiZXhwIjoxNzM0MDg3MTI0fQ.7RDnt5ccyy_6_aMMsOaSKXev7cJtqNfSHUpW0gZvP9M",
+        "message": "Successful login",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "307"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:24:43,103 - INFO - {
+    "timestamp": "2024-12-13 15:24:43",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "57f54613-d8e0-468b-9f7c-d8754ee39ee5",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:24:43,349 - INFO - {
+    "timestamp": "2024-12-13 15:24:43",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "message": "Successful login",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "305"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:24:48,130 - INFO - {
+    "timestamp": "2024-12-13 15:24:48",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "a6a8827a-04fe-428f-bb21-80ce2e680766",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:24:48,131 - INFO - {
+    "timestamp": "2024-12-13 15:24:48",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/profile",
+    "response_data": {
+        "data": {
+            "address": "paramount,sector-137",
+            "email": "localeyes22@gmail.com",
+            "id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+            "name": "admin",
+            "phone_no": "9999999999",
+            "role": "admin"
+        },
+        "message": "Successfully viewed user profile",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "289"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:24:55,309 - INFO - {
+    "timestamp": "2024-12-13 15:24:55",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "649d0ca4-c756-4411-bf78-e1ba1ed789e0",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:24:55,310 - INFO - {
+    "timestamp": "2024-12-13 15:24:55",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "response_data": {
+        "data": [
+            {
+                "address": "random address",
+                "details": "can accept money only",
+                "email": "ngo@gmail.com",
+                "id": "17d62f81-2631-4124-97df-c73828a88b6f",
+                "name": "NGO11",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "ngo1@gmail.com",
+                "id": "1baa5007-bdf2-4f92-8e1e-9fd30b9343a5",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            }
+        ],
+        "message": "Successfully retreived list of NGOs",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "571"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:26:23,161 - INFO - {
+    "timestamp": "2024-12-13 15:26:23",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "75006e80-2745-4d99-b15d-1e3fce6ef1b5",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "191"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Hillary_Murphy@hotmail.com",
+        "phone_no": "9999999999",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "NGO2"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:26:27,496 - INFO - {
+    "timestamp": "2024-12-13 15:26:27",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 201
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:26:58,537 - INFO - {
+    "timestamp": "2024-12-13 15:26:58",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "eaccbfa6-1019-40c2-8d6f-809350403b12",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:26:58,538 - INFO - {
+    "timestamp": "2024-12-13 15:26:58",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "response_data": {
+        "data": [
+            {
+                "address": "random address",
+                "details": "can accept money only",
+                "email": "ngo@gmail.com",
+                "id": "17d62f81-2631-4124-97df-c73828a88b6f",
+                "name": "NGO11",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "ngo1@gmail.com",
+                "id": "1baa5007-bdf2-4f92-8e1e-9fd30b9343a5",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "Hillary_Murphy@hotmail.com",
+                "id": "bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            }
+        ],
+        "message": "Successfully retreived list of NGOs",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "833"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:30:02,791 - INFO - {
+    "timestamp": "2024-12-13 15:30:02",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "80dc6d1f-c88a-4456-9458-147d28b6deaf",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:30:02,792 - INFO - {
+    "timestamp": "2024-12-13 15:30:02",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "response_data": {
+        "data": [
+            {
+                "address": "random address",
+                "details": "can accept money only",
+                "email": "ngo@gmail.com",
+                "id": "17d62f81-2631-4124-97df-c73828a88b6f",
+                "name": "NGO11",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "ngo1@gmail.com",
+                "id": "1baa5007-bdf2-4f92-8e1e-9fd30b9343a5",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "Hillary_Murphy@hotmail.com",
+                "id": "bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            }
+        ],
+        "message": "Successfully retreived list of NGOs",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "833"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:30:28,920 - INFO - {
+    "timestamp": "2024-12-13 15:30:28",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "cf168017-6961-421b-941a-367e6604286c",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:30:28,920 - INFO - {
+    "timestamp": "2024-12-13 15:30:28",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "response_data": {
+        "data": [
+            {
+                "address": "random address",
+                "details": "can accept money only",
+                "email": "ngo@gmail.com",
+                "id": "17d62f81-2631-4124-97df-c73828a88b6f",
+                "name": "NGO11",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "ngo1@gmail.com",
+                "id": "1baa5007-bdf2-4f92-8e1e-9fd30b9343a5",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "Hillary_Murphy@hotmail.com",
+                "id": "bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            }
+        ],
+        "message": "Successfully retreived list of NGOs",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "833"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:31:03,448 - INFO - {
+    "timestamp": "2024-12-13 15:31:03",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "b4787566-9c28-48ce-8733-3c121d1b7652",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:31:03,449 - INFO - {
+    "timestamp": "2024-12-13 15:31:03",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "response_data": {
+        "data": {
+            "address": "random address",
+            "details": "can accept money as well as donatable items",
+            "email": "Hillary_Murphy@hotmail.com",
+            "id": "bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+            "name": "NGO2",
+            "phone_no": "9999999999"
+        },
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "303"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:32:11,827 - INFO - {
+    "timestamp": "2024-12-13 15:32:11",
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "03a12ce0-a7b3-4a49-a46a-c6b7a7ab80d9",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "176"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Norma.Zieme89@gmail.com",
+        "phone_no": "469-948-4009",
+        "address": "random address",
+        "details": "can accept money only",
+        "name": "Austyn_Hane3"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:32:16,067 - INFO - {
+    "timestamp": "2024-12-13 15:32:16",
+    "status_code": 200,
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:32:22,368 - INFO - {
+    "timestamp": "2024-12-13 15:32:22",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "7d84b57b-b5ba-4e54-a89d-e81b3bb1e609",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:32:22,368 - INFO - {
+    "timestamp": "2024-12-13 15:32:22",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "response_data": {
+        "data": {
+            "address": "random address",
+            "details": "can accept money only",
+            "email": "Norma.Zieme89@gmail.com",
+            "id": "bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+            "name": "Austyn_Hane3",
+            "phone_no": "469-948-4009"
+        },
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "288"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:32:31,657 - INFO - {
+    "timestamp": "2024-12-13 15:32:31",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODcyODN9.1tQxk2IxiVrZEsH6xwPZvPTBVvwDT5EK9KlE-Tj2Hz4",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "ceb58231-ea24-455d-9aee-59915e7b61e2",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:32:31,664 - INFO - {
+    "timestamp": "2024-12-13 15:32:31",
+    "status_code": 200,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/bd1b8d43-e5a5-4ef5-9eae-fdd9432207f2",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:27,730 - INFO - {
+    "timestamp": "2024-12-13 15:33:27",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "eb5b7f50-1d7e-45e0-b387-d0631f2dda4f",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "161"
+    },
+    "query_params": {},
+    "body": {
+        "name": "riya goyal",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "riyagoyal93@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:33:31,773 - INFO - {
+    "timestamp": "2024-12-13 15:33:31",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "response_data": {
+        "data": null,
+        "message": "User with email riyagoyal93@gmail.com already exists",
+        "status_code": 4003
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "111"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:33:31,849 - INFO - {
+    "timestamp": "2024-12-13 15:33:31",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "f7f8edce-35f1-46f1-9da0-25d4d9405247",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:33:32,101 - INFO - {
+    "timestamp": "2024-12-13 15:33:32",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "message": "Successful login",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "305"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-13 15:33:32,192 - INFO - {
+    "timestamp": "2024-12-13 15:33:32",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "f3f638bb-2eb3-4a32-8344-dea412c1c511",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:32,193 - INFO - {
+    "timestamp": "2024-12-13 15:33:32",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/profile",
+    "response_data": {
+        "data": {
+            "address": "paramount,sector-137",
+            "email": "localeyes22@gmail.com",
+            "id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+            "name": "admin",
+            "phone_no": "9999999999",
+            "role": "admin"
+        },
+        "message": "Successfully viewed user profile",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "289"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:32,269 - INFO - {
+    "timestamp": "2024-12-13 15:33:32",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "fe6046e9-263c-435a-9904-b1468e1d1c75",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "209"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Keyshawn.Halvorson@hotmail.com",
+        "phone_no": "803-216-9924",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Willie.Pfeffer97"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:36,510 - INFO - {
+    "timestamp": "2024-12-13 15:33:36",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 201
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:36,577 - INFO - {
+    "timestamp": "2024-12-13 15:33:36",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "99d63f94-9511-4c5c-a108-9b4920732885",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:36,577 - INFO - {
+    "timestamp": "2024-12-13 15:33:36",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "response_data": {
+        "data": [
+            {
+                "address": "random address",
+                "details": "can accept money only",
+                "email": "ngo@gmail.com",
+                "id": "17d62f81-2631-4124-97df-c73828a88b6f",
+                "name": "NGO11",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "ngo1@gmail.com",
+                "id": "1baa5007-bdf2-4f92-8e1e-9fd30b9343a5",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "Keyshawn.Halvorson@hotmail.com",
+                "id": "a0659458-4192-494c-a6ea-c114a7aac7c4",
+                "name": "Willie.Pfeffer97",
+                "phone_no": "803-216-9924"
+            }
+        ],
+        "message": "Successfully retreived list of NGOs",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "851"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:36,657 - INFO - {
+    "timestamp": "2024-12-13 15:33:36",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/a0659458-4192-494c-a6ea-c114a7aac7c4",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "676e5cba-d78b-4d8f-9da7-753406dca969",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:36,657 - INFO - {
+    "timestamp": "2024-12-13 15:33:36",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/a0659458-4192-494c-a6ea-c114a7aac7c4",
+    "response_data": {
+        "data": {
+            "address": "random address",
+            "details": "can accept money as well as donatable items",
+            "email": "Keyshawn.Halvorson@hotmail.com",
+            "id": "a0659458-4192-494c-a6ea-c114a7aac7c4",
+            "name": "Willie.Pfeffer97",
+            "phone_no": "803-216-9924"
+        },
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "321"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:36,737 - INFO - {
+    "timestamp": "2024-12-13 15:33:36",
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/a0659458-4192-494c-a6ea-c114a7aac7c4",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "4205ce5c-2501-4e16-95fb-e693cf8ee35d",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "171"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Emmanuel27@gmail.com",
+        "phone_no": "927-953-3236",
+        "address": "random address",
+        "details": "can accept money only",
+        "name": "Evan_Weber"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:40,792 - INFO - {
+    "timestamp": "2024-12-13 15:33:40",
+    "status_code": 200,
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/a0659458-4192-494c-a6ea-c114a7aac7c4",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:40,865 - INFO - {
+    "timestamp": "2024-12-13 15:33:40",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/a0659458-4192-494c-a6ea-c114a7aac7c4",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQwODc4MTJ9.dEIe0MEIJb-GfywR0D052xQGN9MOeGoAIel-YWEnA8A",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "38c84b47-c000-4ab3-bdb6-1c865e03d75e",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-13 15:33:40,876 - INFO - {
+    "timestamp": "2024-12-13 15:33:40",
+    "status_code": 200,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/a0659458-4192-494c-a6ea-c114a7aac7c4",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 20:23:51,231 - INFO - {
+    "timestamp": "2024-12-14 20:23:51",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "acda2546-d5ee-4592-95f1-25c1ad0a4d5b",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "175"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Orlando.Emmerich14",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "Jakayla_Pollich31@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 20:23:55,838 - INFO - {
+    "timestamp": "2024-12-14 20:23:55",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 201
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 21:03:28,386 - INFO - {
+    "timestamp": "2024-12-14 21:03:28",
+    "status_code": 401,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Token expired",
+        "status_code": 401
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "71"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 21:03:37,141 - INFO - {
+    "timestamp": "2024-12-14 21:03:37",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "2ee30488-a94a-4a0c-bf5f-5fa805ca38a6",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 21:03:37,383 - INFO - {
+    "timestamp": "2024-12-14 21:03:37",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQxOTQwMTd9.a81iMmnM3552iFi9NSZT6IhYwqfBK8E3CPd-3QvIbXg",
+        "message": "Successful login",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "305"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 21:03:44,373 - INFO - {
+    "timestamp": "2024-12-14 21:03:44",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQxOTQwMTd9.a81iMmnM3552iFi9NSZT6IhYwqfBK8E3CPd-3QvIbXg",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "aec26ff2-3690-4969-8aa1-fdf78f08fce0",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "186"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:03:44,429 - ERROR - {
+    "timestamp": "2024-12-14 21:03:44",
+    "error_message": "400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 5 (char 7)",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py\", line 611, in get_json\n    rv = self.json_module.loads(data)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\json\\provider.py\", line 187, in loads\n    return json.loads(s, **kwargs)\n           ~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 344, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 360, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ~~~~~~~~~~~~~~^^^^^^^^\njson.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 5 (char 7)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 11, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 20, in create_ngo\n    data = request.get_json()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py\", line 620, in get_json\n    rv = self.on_json_loading_failed(e)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\wrappers.py\", line 214, in on_json_loading_failed\n    return super().on_json_loading_failed(e)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py\", line 645, in on_json_loading_failed\n    raise BadRequest(f\"Failed to decode JSON object: {e}\")\nwerkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 5 (char 7)\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQxOTQwMTd9.a81iMmnM3552iFi9NSZT6IhYwqfBK8E3CPd-3QvIbXg",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "aec26ff2-3690-4969-8aa1-fdf78f08fce0",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "186"
+    },
+    "request_body": {},
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:03:44,429 - INFO - {
+    "timestamp": "2024-12-14 21:03:44",
+    "status_code": 500,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "An unexpected error occurred",
+        "status_code": 5001
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "87"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:04:07,419 - INFO - {
+    "timestamp": "2024-12-14 21:04:07",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQxOTQwMTd9.a81iMmnM3552iFi9NSZT6IhYwqfBK8E3CPd-3QvIbXg",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "bfd1e4b4-9a55-4a63-b2f3-9f00a19be9b3",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "205"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:04:07,448 - ERROR - {
+    "timestamp": "2024-12-14 21:04:07",
+    "error_message": "name 'BadRequestError' is not defined",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py\", line 611, in get_json\n    rv = self.json_module.loads(data)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\json\\provider.py\", line 187, in loads\n    return json.loads(s, **kwargs)\n           ~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__init__.py\", line 346, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 344, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\decoder.py\", line 360, in raw_decode\n    obj, end = self.scan_once(s, idx)\n               ~~~~~~~~~~~~~~^^^^^^^^\njson.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 2 column 5 (char 7)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 20, in create_ngo\n    data = request.get_json()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py\", line 620, in get_json\n    rv = self.on_json_loading_failed(e)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\wrappers.py\", line 214, in on_json_loading_failed\n    return super().on_json_loading_failed(e)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\werkzeug\\wrappers\\request.py\", line 645, in on_json_loading_failed\n    raise BadRequest(f\"Failed to decode JSON object: {e}\")\nwerkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 5 (char 7)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 11, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 46, in create_ngo\n    except BadRequestError:\n           ^^^^^^^^^^^^^^^\nNameError: name 'BadRequestError' is not defined. Did you mean: 'BadRequestKeyError'?\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQxOTQwMTd9.a81iMmnM3552iFi9NSZT6IhYwqfBK8E3CPd-3QvIbXg",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "bfd1e4b4-9a55-4a63-b2f3-9f00a19be9b3",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "205"
+    },
+    "request_body": {},
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:04:07,449 - INFO - {
+    "timestamp": "2024-12-14 21:04:07",
+    "status_code": 500,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "An unexpected error occurred",
+        "status_code": 5001
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "87"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:04:51,534 - INFO - {
+    "timestamp": "2024-12-14 21:04:51",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQxOTQwMTd9.a81iMmnM3552iFi9NSZT6IhYwqfBK8E3CPd-3QvIbXg",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "795efee9-6978-40f7-8829-06c0ddaa0aa7",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "207"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 21:04:51,535 - INFO - {
+    "timestamp": "2024-12-14 21:04:51",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Invalid request body format",
+        "status_code": 4002
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "86"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:53:35,807 - INFO - {
+    "timestamp": "2024-12-14 22:53:35",
+    "status_code": 401,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Token expired",
+        "status_code": 4102
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "72"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 22:53:42,071 - INFO - {
+    "timestamp": "2024-12-14 22:53:42",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "d1f51a9d-0aa5-41ce-9efc-7b95b4df8dc5",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 22:53:42,319 - INFO - {
+    "timestamp": "2024-12-14 22:53:42",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "message": "Successful login",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "305"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 22:53:46,117 - INFO - {
+    "timestamp": "2024-12-14 22:53:46",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "684deee8-f8ed-4daa-a3bf-084b43e28028",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "192"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Louie55@yahoo.com",
+        "phone_no": "999-718-4620",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Kevon.Roob29"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:53:50,468 - ERROR - {
+    "timestamp": "2024-12-14 22:53:50",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 34, in create_ngo\n    self.user_service.add_ngo(NGO.from_dict(request_obj.to_dict()))\n                                            ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "684deee8-f8ed-4daa-a3bf-084b43e28028",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "192"
+    },
+    "request_body": {
+        "email": "Louie55@yahoo.com",
+        "phone_no": "999-718-4620",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Kevon.Roob29"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:56:26,279 - INFO - {
+    "timestamp": "2024-12-14 22:56:26",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "d76697d1-eca6-4d8b-be62-45720517ba39",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "193"
+    },
+    "query_params": {},
+    "body": {
+        "email": "June.Cummings10@yahoo.com",
+        "phone_no": "9999999999",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Brisa14"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:56:30,415 - ERROR - {
+    "timestamp": "2024-12-14 22:56:30",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 34, in create_ngo\n    self.user_service.add_ngo(NGO.from_dict(request_obj.to_dict()))\n                                            ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "d76697d1-eca6-4d8b-be62-45720517ba39",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "193"
+    },
+    "request_body": {
+        "email": "June.Cummings10@yahoo.com",
+        "phone_no": "9999999999",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Brisa14"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:58:35,134 - INFO - {
+    "timestamp": "2024-12-14 22:58:35",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "a1ca746e-22f9-41d2-aabe-65c0d681266c",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "196"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Brenda12@hotmail.com",
+        "phone_no": "523-263-4037",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Arne.Maggio18"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:58:39,465 - ERROR - {
+    "timestamp": "2024-12-14 22:58:39",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 34, in create_ngo\n    self.user_service.add_ngo(NGO.from_dict(request_obj.to_dict()))\n                                            ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "a1ca746e-22f9-41d2-aabe-65c0d681266c",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "196"
+    },
+    "request_body": {
+        "email": "Brenda12@hotmail.com",
+        "phone_no": "523-263-4037",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Arne.Maggio18"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:59:46,038 - INFO - {
+    "timestamp": "2024-12-14 22:59:46",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "787aac63-cbd9-4a28-b68e-ea02643dda23",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "205"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Britney.Zulauf82@yahoo.com",
+        "phone_no": "616-830-1294",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Alice_Lueilwitz8"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 22:59:56,979 - ERROR - {
+    "timestamp": "2024-12-14 22:59:56",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 35, in create_ngo\n    self.user_service.add_ngo(NGO.from_dict(request_obj.to_dict()))\n                                            ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "787aac63-cbd9-4a28-b68e-ea02643dda23",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "205"
+    },
+    "request_body": {
+        "email": "Britney.Zulauf82@yahoo.com",
+        "phone_no": "616-830-1294",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Alice_Lueilwitz8"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:01:43,330 - INFO - {
+    "timestamp": "2024-12-14 23:01:43",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "0016f5c8-a32c-4238-b6ba-fac076e575ef",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "203"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Bailey_Fahey27@gmail.com",
+        "phone_no": "684-291-7584",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Kellie.Goodwin42"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:01:58,426 - ERROR - {
+    "timestamp": "2024-12-14 23:01:58",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 34, in create_ngo\n    ngo = NGO.from_dict(request_obj.to_dict())\n                        ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "0016f5c8-a32c-4238-b6ba-fac076e575ef",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "203"
+    },
+    "request_body": {
+        "email": "Bailey_Fahey27@gmail.com",
+        "phone_no": "684-291-7584",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Kellie.Goodwin42"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:04:17,865 - INFO - {
+    "timestamp": "2024-12-14 23:04:17",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "9feb5d18-325a-433f-902a-ad293b876477",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "208"
+    },
+    "query_params": {},
+    "body": {
+        "email": "David_McGlynn12@gmail.com",
+        "phone_no": "417-737-0154",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Arianna_Macejkovic72"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:04:22,675 - ERROR - {
+    "timestamp": "2024-12-14 23:04:22",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 34, in create_ngo\n    request_obj_dict = request_obj.to_dict()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "9feb5d18-325a-433f-902a-ad293b876477",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "208"
+    },
+    "request_body": {
+        "email": "David_McGlynn12@gmail.com",
+        "phone_no": "417-737-0154",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Arianna_Macejkovic72"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:04:57,676 - INFO - {
+    "timestamp": "2024-12-14 23:04:57",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "7a3a98ba-d2e7-4ceb-9f52-1460274875db",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "188"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Nova85@hotmail.com",
+        "phone_no": "312-702-7086",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Keith74"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:05:02,006 - ERROR - {
+    "timestamp": "2024-12-14 23:05:01",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 35, in create_ngo\n    request_obj_dict = request_obj.to_dict()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "7a3a98ba-d2e7-4ceb-9f52-1460274875db",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "188"
+    },
+    "request_body": {
+        "email": "Nova85@hotmail.com",
+        "phone_no": "312-702-7086",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Keith74"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:09:27,517 - INFO - {
+    "timestamp": "2024-12-14 23:09:27",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "0167b6ce-4164-4ee3-97b2-dcc0177ccc5d",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "192"
+    },
+    "query_params": {},
+    "body": {
+        "email": "German99@gmail.com",
+        "phone_no": "606-372-6804",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Berry_Walsh"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:09:31,664 - ERROR - {
+    "timestamp": "2024-12-14 23:09:31",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 36, in create_ngo\n    request_obj_dict = request_obj.to_dict()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "0167b6ce-4164-4ee3-97b2-dcc0177ccc5d",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "192"
+    },
+    "request_body": {
+        "email": "German99@gmail.com",
+        "phone_no": "606-372-6804",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Berry_Walsh"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:10:16,117 - INFO - {
+    "timestamp": "2024-12-14 23:10:16",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "5850ad41-039a-4ca8-b323-3dd5305a696f",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "205"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Giovanny_Schumm68@hotmail.com",
+        "phone_no": "932-846-9048",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Gracie.Grimes"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:10:20,438 - ERROR - {
+    "timestamp": "2024-12-14 23:10:20",
+    "error_message": "'NewNGO' object has no attribute 'password'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 917, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\flask\\app.py\", line 902, in dispatch_request\n    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\custom_decorators\\admin_decorator.py\", line 12, in wrapped_func\n    return f(*args, **kwargs)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\handlers\\admin_handler.py\", line 35, in create_ngo\n    print(request_obj.to_dict())\n          ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\models\\new_ngo.py\", line 16, in to_dict\n    'details': self.password,\n               ^^^^^^^^^^^^^\nAttributeError: 'NewNGO' object has no attribute 'password'\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/admin/ngo",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "5850ad41-039a-4ca8-b323-3dd5305a696f",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "205"
+    },
+    "request_body": {
+        "email": "Giovanny_Schumm68@hotmail.com",
+        "phone_no": "932-846-9048",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Gracie.Grimes"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:15:01,709 - INFO - {
+    "timestamp": "2024-12-14 23:15:01",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "34b88ee6-aa42-43af-8856-93d43d36d265",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "190"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Elenor45@hotmail.com",
+        "phone_no": "649-853-2013",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Linda39"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:15:05,842 - INFO - {
+    "timestamp": "2024-12-14 23:15:05",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 201
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:17:15,526 - INFO - {
+    "timestamp": "2024-12-14 23:17:15",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "368d5337-b8b0-44cf-8c5b-8525c8052aff",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "198"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:17:15,527 - INFO - {
+    "timestamp": "2024-12-14 23:17:15",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Invalid request body format",
+        "status_code": 4002
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "86"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:19:35,335 - INFO - {
+    "timestamp": "2024-12-14 23:19:35",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "c956d430-79c2-4ac1-8d9d-ac84be01f44e",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "175"
+    },
+    "query_params": {},
+    "body": {
+        "email": "",
+        "phone_no": "763-781-4479",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Margret.Wolf"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:19:35,335 - INFO - {
+    "timestamp": "2024-12-14 23:19:35",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Invalid email id",
+        "status_code": 4003
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "75"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:26:17,403 - INFO - {
+    "timestamp": "2024-12-14 23:26:17",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "f252fc1f-d864-4a58-bcca-e63bf798cdb2",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:26:17,405 - INFO - {
+    "timestamp": "2024-12-14 23:26:17",
+    "status_code": 500,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "response_data": {
+        "data": null,
+        "message": "Ngo Id does not exist",
+        "status_code": 5000
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "80"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:30:03,191 - INFO - {
+    "timestamp": "2024-12-14 23:30:03",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "c48a13ce-a2a6-4af4-994e-dfa865303b1c",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:30:03,191 - INFO - {
+    "timestamp": "2024-12-14 23:30:03",
+    "status_code": 500,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "response_data": {
+        "data": null,
+        "message": "Ngo Id does not exist",
+        "status_code": 5000
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "80"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:30:29,218 - INFO - {
+    "timestamp": "2024-12-14 23:30:29",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "1d3f5fcc-bf1c-43bd-911e-ad15c1cd00b1",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:30:29,219 - INFO - {
+    "timestamp": "2024-12-14 23:30:29",
+    "status_code": 500,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "response_data": {
+        "data": null,
+        "message": "Ngo Id does not exist",
+        "status_code": 5000
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "80"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:36:39,854 - INFO - {
+    "timestamp": "2024-12-14 23:36:39",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDA2MjJ9.H509kc1pZFQOE07GgSxqY8F4-WO19Kvl700gz_QgGbQ",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "ebf27e03-ebab-42d7-896e-003c0c4d7e5e",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:36:39,856 - INFO - {
+    "timestamp": "2024-12-14 23:36:39",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "response_data": {
+        "data": null,
+        "message": "Ngo Id does not exist",
+        "status_code": 4004
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "80"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:45:57,683 - INFO - {
+    "timestamp": "2024-12-14 23:45:57",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "1988e860-d3aa-453f-965c-085ca8f47a15",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "168"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Alexandro.Dare",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "Fatima.Lemke@hotmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 23:46:02,235 - INFO - {
+    "timestamp": "2024-12-14 23:46:02",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 201
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 23:46:02,320 - INFO - {
+    "timestamp": "2024-12-14 23:46:02",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "958b3045-e8c9-4143-a25d-17b3e6b36911",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 23:46:02,569 - INFO - {
+    "timestamp": "2024-12-14 23:46:02",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "message": "Successful login",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "305"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-14 23:46:02,649 - INFO - {
+    "timestamp": "2024-12-14 23:46:02",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "a9026a7b-383e-4abd-9516-54db3ca6b290",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:02,650 - INFO - {
+    "timestamp": "2024-12-14 23:46:02",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/profile",
+    "response_data": {
+        "data": {
+            "address": "paramount,sector-137",
+            "email": "localeyes22@gmail.com",
+            "id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+            "name": "admin",
+            "phone_no": "9999999999",
+            "role": "admin"
+        },
+        "message": "Successfully viewed user profile",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "289"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:02,742 - INFO - {
+    "timestamp": "2024-12-14 23:46:02",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "31d149bb-8aaf-4c44-b5c9-df64b1bbd136",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "187"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Sandy53@yahoo.com",
+        "phone_no": "590-840-9820",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Alena21"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:17,755 - INFO - {
+    "timestamp": "2024-12-14 23:46:17",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 201
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:17,833 - INFO - {
+    "timestamp": "2024-12-14 23:46:17",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "027c06cf-5cc8-437b-b481-21f6b38fd5d4",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:17,833 - INFO - {
+    "timestamp": "2024-12-14 23:46:17",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/all",
+    "response_data": {
+        "data": [
+            {
+                "address": "random address",
+                "details": "can accept money only",
+                "email": "ngo@gmail.com",
+                "id": "17d62f81-2631-4124-97df-c73828a88b6f",
+                "name": "NGO11",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "ngo1@gmail.com",
+                "id": "1baa5007-bdf2-4f92-8e1e-9fd30b9343a5",
+                "name": "NGO2",
+                "phone_no": "9999999999"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "Elenor45@hotmail.com",
+                "id": "83936f26-bfb7-4d4d-9813-eacd07621435",
+                "name": "Linda39",
+                "phone_no": "649-853-2013"
+            },
+            {
+                "address": "random address",
+                "details": "can accept money as well as donatable items",
+                "email": "Sandy53@yahoo.com",
+                "id": "f7cb2c90-84ba-4021-b03c-5eb548053cdf",
+                "name": "Alena21",
+                "phone_no": "590-840-9820"
+            }
+        ],
+        "message": "Successfully retreived list of NGOs",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "1090"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:17,927 - INFO - {
+    "timestamp": "2024-12-14 23:46:17",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/f7cb2c90-84ba-4021-b03c-5eb548053cdf",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "c180ff26-6cc1-4d7a-860e-e116b04b40a8",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:17,928 - INFO - {
+    "timestamp": "2024-12-14 23:46:17",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/user/ngo/f7cb2c90-84ba-4021-b03c-5eb548053cdf",
+    "response_data": {
+        "data": {
+            "address": "random address",
+            "details": "can accept money as well as donatable items",
+            "email": "Sandy53@yahoo.com",
+            "id": "f7cb2c90-84ba-4021-b03c-5eb548053cdf",
+            "name": "Alena21",
+            "phone_no": "590-840-9820"
+        },
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "299"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:17,986 - INFO - {
+    "timestamp": "2024-12-14 23:46:17",
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/f7cb2c90-84ba-4021-b03c-5eb548053cdf",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "1c5d73c2-77c7-4c0b-88c3-40ebffe590e7",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "173"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Nola58@hotmail.com",
+        "phone_no": "990-438-8530",
+        "address": "random address",
+        "details": "can accept money only",
+        "name": "Pablo_Senger83"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:22,221 - INFO - {
+    "timestamp": "2024-12-14 23:46:22",
+    "status_code": 200,
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/f7cb2c90-84ba-4021-b03c-5eb548053cdf",
+    "response_data": {
+        "data": null,
+        "message": "Success",
+        "status_code": 200
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "65"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:22,316 - INFO - {
+    "timestamp": "2024-12-14 23:46:22",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzQyMDM3NjJ9.0n_O_w2OFjThAdqmI01UwAmqebjKgzGpu4ONTovqUYw",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "a36f00fd-7e3f-4549-83ce-74f21b94168b",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
+2024-12-14 23:46:22,316 - INFO - {
+    "timestamp": "2024-12-14 23:46:22",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/78",
+    "response_data": {
+        "data": null,
+        "message": "Ngo Id does not exist",
+        "status_code": 4004
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "80"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": null
+} 
