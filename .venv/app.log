@@ -2413,3 +2413,79 @@
     "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
     "user_role": null
 } 
+2024-12-23 09:45:43,143 - INFO - {
+    "timestamp": "2024-12-23 09:45:43",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "43994184-1ba2-4f11-8fe7-b8d7aa5256c1",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "8"
+    },
+    "query_params": {},
+    "body": "string",
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-23 09:45:43,145 - INFO - {
+    "timestamp": "2024-12-23 09:45:43",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": null,
+        "message": "Missing required fields",
+        "status_code": 4001
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "82"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-23 09:45:59,159 - INFO - {
+    "timestamp": "2024-12-23 09:45:59",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "PostmanRuntime/7.43.0",
+        "Accept": "*/*",
+        "Postman-Token": "8a4429c6-8bf4-4edb-9349-d390d43f2dc8",
+        "Host": "127.0.0.1:5000",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Content-Length": "6"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-23 09:45:59,159 - INFO - {
+    "timestamp": "2024-12-23 09:45:59",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/login",
+    "response_data": {
+        "data": null,
+        "message": "Invalid request body format",
+        "status_code": 4002
+    },
+    "response_headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "86"
+    },
+    "user_id": null,
+    "user_role": null
+} 

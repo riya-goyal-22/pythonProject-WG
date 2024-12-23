@@ -51,6 +51,8 @@ class NGORepository:
                         address=row['address']
                     )
                 return None
+        except NotExistsError as e:
+            raise NotExistsError(str(e))
 
         except Exception as e:
             raise DatabaseError(str(e))

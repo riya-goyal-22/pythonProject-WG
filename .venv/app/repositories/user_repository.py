@@ -2,7 +2,7 @@ import sqlite3
 from app.utils.queries.query_generator import SQLiteQueryBuilder
 from app.utils.queries.query_executor import SQLiteQueryExecutor
 from app.models.user import User
-from app.utils.errors.custom_errors import DatabaseError
+from app.utils.errors.custom_errors import DatabaseError, NotExistsError
 
 
 class UserRepository:
@@ -27,6 +27,8 @@ class UserRepository:
                 result = self.query_builder.select(where=where)
                 cursor = SQLiteQueryExecutor.execute_query(self.db, result[0], result[1])
                 res = cursor.fetchone()
+                if res is None:
+                    raise NotExistsError("Ngo Id does not exist")
                 if res:
                     return User(
                         id=res['id'],
@@ -38,6 +40,8 @@ class UserRepository:
                         role=res['role']
                     )
                 return None
+        except NotExistsError as e:
+            raise NotExistsError(str(e))
 
         except Exception as e:
             raise DatabaseError(str(e))

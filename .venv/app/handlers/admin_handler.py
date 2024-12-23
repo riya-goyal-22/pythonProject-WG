@@ -73,7 +73,7 @@ class AdminHandler(UserHandler):
         except DatabaseError as e:
             return CustomResponse(DB_ERROR, str(e), None).to_dict(), 500
 
-        except BadRequestKeyError:
+        except BadRequest:
             return CustomResponse(INVALID_REQUEST_BODY_FORMAT, "Invalid request body format", None).to_dict(), 400
 
         except UnsupportedMediaType:
