@@ -2489,3 +2489,3145 @@
     "user_id": null,
     "user_role": null
 } 
+2024-12-25 19:57:05,100 - INFO - {
+    "timestamp": "2024-12-25 19:57:05",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 19:57:05,240 - INFO - {
+    "timestamp": "2024-12-25 19:57:05",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/favicon.ico",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://127.0.0.1:5000/",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 19:57:28,344 - INFO - {
+    "timestamp": "2024-12-25 19:57:28",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 19:57:28,477 - INFO - {
+    "timestamp": "2024-12-25 19:57:28",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/favicon.ico",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://127.0.0.1:5000/",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:00:10,892 - INFO - {
+    "timestamp": "2024-12-25 20:00:10",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "cache-control": "max-age=0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:00:10,960 - INFO - {
+    "timestamp": "2024-12-25 20:00:10",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/favicon.ico",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://127.0.0.1:5000/",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:02:18,415 - INFO - {
+    "timestamp": "2024-12-25 20:02:18",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:02:18,561 - INFO - {
+    "timestamp": "2024-12-25 20:02:18",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/favicon.ico",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://127.0.0.1:5000/",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:06:05,426 - INFO - {
+    "timestamp": "2024-12-25 20:06:05",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:06:05,428 - INFO - {
+    "timestamp": "2024-12-25 20:06:05",
+    "status_code": 404,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "22",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:06:14,373 - INFO - {
+    "timestamp": "2024-12-25 20:06:14",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/docs",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:06:14,595 - INFO - {
+    "timestamp": "2024-12-25 20:06:14",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/favicon.ico",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://127.0.0.1:5000/docs",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:06:18,250 - INFO - {
+    "timestamp": "2024-12-25 20:06:18",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/doc",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:06:18,330 - INFO - {
+    "timestamp": "2024-12-25 20:06:18",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/favicon.ico",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://127.0.0.1:5000/doc",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:07:02,008 - INFO - {
+    "timestamp": "2024-12-25 20:07:02",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:07:02,009 - INFO - {
+    "timestamp": "2024-12-25 20:07:02",
+    "status_code": 404,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "22",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:07:20,059 - INFO - {
+    "timestamp": "2024-12-25 20:07:20",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/docs",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:07:20,060 - INFO - {
+    "timestamp": "2024-12-25 20:07:20",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/docs",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "938",
+        "content-type": "text/html; charset=utf-8"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:07:22,763 - INFO - {
+    "timestamp": "2024-12-25 20:07:22",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/openapi.json",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "application/json,*/*",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://127.0.0.1:5000/docs",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:10:56,820 - INFO - {
+    "timestamp": "2024-12-25 20:10:56",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:10:56,822 - INFO - {
+    "timestamp": "2024-12-25 20:10:56",
+    "status_code": 404,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "22",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:11:05,004 - INFO - {
+    "timestamp": "2024-12-25 20:11:05",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/docs",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:11:05,006 - INFO - {
+    "timestamp": "2024-12-25 20:11:05",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/docs",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "938",
+        "content-type": "text/html; charset=utf-8"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:11:05,193 - INFO - {
+    "timestamp": "2024-12-25 20:11:05",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/openapi.json",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "application/json,*/*",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://127.0.0.1:5000/docs",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:11:05,201 - INFO - {
+    "timestamp": "2024-12-25 20:11:05",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/openapi.json",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "5040",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:12:58,608 - INFO - {
+    "timestamp": "2024-12-25 20:12:58",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "host": "127.0.0.1:5000",
+        "connection": "keep-alive",
+        "content-length": "139",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+        "accept": "application/json",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0",
+        "origin": "http://127.0.0.1:5000",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-dest": "empty",
+        "referer": "http://127.0.0.1:5000/docs",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9"
+    },
+    "query_params": {},
+    "body": {
+        "address": "Ward no 12",
+        "email": "johngmail.com",
+        "name": "John Doe",
+        "password": "****",
+        "phone_no": "9999999999"
+    },
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:14:51,541 - INFO - {
+    "timestamp": "2024-12-25 20:14:51",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "041426bd-a2e1-4f04-8663-aa7742594646",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "169"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Anissa_Conroy",
+        "address": "paramount,sector-137",
+        "phone_no": "99999999",
+        "password": "****",
+        "email": "Stanton_Luettgen65@yahoo.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:14:51,542 - INFO - {
+    "timestamp": "2024-12-25 20:14:51",
+    "status_code": 404,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/user/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "22",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:16:05,641 - INFO - {
+    "timestamp": "2024-12-25 20:16:05",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "82ef4f52-b289-4e41-a24c-5257ac87d56c",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "161"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Julius_Kassulke35",
+        "address": "paramount,sector-137",
+        "phone_no": "99999999",
+        "password": "****",
+        "email": "Tobin1@yahoo.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:16:38,970 - INFO - {
+    "timestamp": "2024-12-25 20:16:38",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "76074a55-acbf-43d3-b299-c55388eec43f",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "158"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Kaylie32",
+        "address": "paramount,sector-137",
+        "phone_no": "99999999",
+        "password": "****",
+        "email": "Buck_Gutmann@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:24:16,366 - INFO - {
+    "timestamp": "2024-12-25 20:24:16",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "e4031987-5882-4c86-9fcd-16d10bcbf58e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "170"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Elmira.Barrows",
+        "address": "paramount,sector-137",
+        "phone_no": "99999999",
+        "password": "****",
+        "email": "Tess.Bashirian92@hotmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:24:16,666 - INFO - {
+    "timestamp": "2024-12-25 20:24:16",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:25:16,269 - INFO - {
+    "timestamp": "2024-12-25 20:25:16",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "be529c96-22f4-4463-a62d-634ad0f638b5",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "150"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Lilly43",
+        "address": "paramount,sector-137",
+        "phone_no": "999999",
+        "password": "****",
+        "email": "Ettie17@yahoo.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:25:16,876 - INFO - {
+    "timestamp": "2024-12-25 20:25:16",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:30:46,486 - INFO - {
+    "timestamp": "2024-12-25 20:30:46",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "25563ba5-e4a2-4799-9965-de316eba815b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "158"
+    },
+    "query_params": {},
+    "body": {
+        "name": "Ladarius25",
+        "address": "paramount,sector-137",
+        "phone_no": "999999",
+        "password": "****",
+        "email": "Christophe12@yahoo.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:30:46,493 - INFO - {
+    "timestamp": "2024-12-25 20:30:46",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "57",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:31:05,043 - INFO - {
+    "timestamp": "2024-12-25 20:31:05",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ca388f7f-4af9-4680-87d9-324cef0525a2",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "159"
+    },
+    "query_params": {},
+    "body": {
+        "name": "",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "Muhammad.Kirlin31@hotmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:31:05,045 - INFO - {
+    "timestamp": "2024-12-25 20:31:05",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "49",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:31:22,246 - INFO - {
+    "timestamp": "2024-12-25 20:31:22",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ad8f436c-15c3-4d67-b602-8aeb84e4522a",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "154"
+    },
+    "query_params": {},
+    "body": {
+        "name": "john",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "Margarette.Nicolas@yahoo.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:31:26,760 - INFO - {
+    "timestamp": "2024-12-25 20:31:26",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:34:18,546 - INFO - {
+    "timestamp": "2024-12-25 20:34:18",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "b84b111c-2855-4c68-a14b-5a0ba055a25b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "134"
+    },
+    "query_params": {},
+    "body": {
+        "name": "john",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": ""
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:34:18,549 - INFO - {
+    "timestamp": "2024-12-25 20:34:18",
+    "status_code": 400,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "50",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:38:31,090 - INFO - {
+    "timestamp": "2024-12-25 20:38:31",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "de9cfb12-7369-46d7-8480-b4e50901c29c",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "134"
+    },
+    "query_params": {},
+    "body": {
+        "name": "john",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": ""
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:38:31,093 - INFO - {
+    "timestamp": "2024-12-25 20:38:31",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "50",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:38:43,286 - INFO - {
+    "timestamp": "2024-12-25 20:38:43",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "09e9e658-5715-48cd-a893-6f8f843ab109",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "122"
+    },
+    "query_params": {},
+    "body": {
+        "name": "john",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:38:43,289 - INFO - {
+    "timestamp": "2024-12-25 20:38:43",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "181",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:39:42,714 - INFO - {
+    "timestamp": "2024-12-25 20:39:42",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "05314f4c-2795-41c8-b2e8-05a350beeaae",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "148"
+    },
+    "query_params": {},
+    "body": {
+        "name": "john",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "riya@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:39:58,486 - INFO - {
+    "timestamp": "2024-12-25 20:39:58",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:41:15,708 - INFO - {
+    "timestamp": "2024-12-25 20:41:15",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "dbdc1040-2b9d-4a58-a758-f937bb39ac37",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "53"
+    },
+    "query_params": {},
+    "body": {
+        "email": "john",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:41:55,765 - INFO - {
+    "timestamp": "2024-12-25 20:41:55",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "f93278b8-0bd4-4904-a00c-7ec2680e5bb2",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "53"
+    },
+    "query_params": {},
+    "body": {
+        "email": "john",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:42:44,568 - INFO - {
+    "timestamp": "2024-12-25 20:42:44",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "1fb760b3-4685-4c90-93ce-5403728635de",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "53"
+    },
+    "query_params": {},
+    "body": {
+        "email": "john",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:43:34,915 - INFO - {
+    "timestamp": "2024-12-25 20:43:34",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "0a177085-68d9-4603-a3cf-bb6b41732b29",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "53"
+    },
+    "query_params": {},
+    "body": {
+        "email": "john",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:43:34,917 - INFO - {
+    "timestamp": "2024-12-25 20:43:34",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "50",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:43:55,245 - INFO - {
+    "timestamp": "2024-12-25 20:43:55",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "8aeebae4-2a0d-4bfe-a9d2-7e46da06202a",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "63"
+    },
+    "query_params": {},
+    "body": {
+        "email": "john@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:43:59,549 - INFO - {
+    "timestamp": "2024-12-25 20:43:59",
+    "status_code": 401,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "49",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:44:13,089 - INFO - {
+    "timestamp": "2024-12-25 20:44:13",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "447ada6f-a4c2-4208-9b00-5f16a6583b56",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "63"
+    },
+    "query_params": {},
+    "body": {
+        "email": "riya@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:44:17,382 - INFO - {
+    "timestamp": "2024-12-25 20:44:17",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "282",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 20:44:24,084 - INFO - {
+    "timestamp": "2024-12-25 20:44:24",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGM4YjU2ZDMtZGZmMS00MTM4LTg5NGItNGIyYWYwMzY2MjA3IiwiZW1haWwiOiJyaXlhQGdtYWlsLmNvbSIsInJvbGUiOiJkb25vciIsImV4cCI6MTczNTE0MzI1N30.X5zmbAYLGh6IIv2hx4VvetFjlyMNhzdx_o7a9Qg1SKs",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "895d9a42-c3ff-460a-bce1-4dc578e9ac90",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:08:54,924 - INFO - {
+    "timestamp": "2024-12-25 21:08:54",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGM4YjU2ZDMtZGZmMS00MTM4LTg5NGItNGIyYWYwMzY2MjA3IiwiZW1haWwiOiJyaXlhQGdtYWlsLmNvbSIsInJvbGUiOiJkb25vciIsImV4cCI6MTczNTE0MzI1N30.X5zmbAYLGh6IIv2hx4VvetFjlyMNhzdx_o7a9Qg1SKs",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "463d6e01-ff49-4222-8b52-efb40932cb11",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:12:38,345 - INFO - {
+    "timestamp": "2024-12-25 21:12:38",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGM4YjU2ZDMtZGZmMS00MTM4LTg5NGItNGIyYWYwMzY2MjA3IiwiZW1haWwiOiJyaXlhQGdtYWlsLmNvbSIsInJvbGUiOiJkb25vciIsImV4cCI6MTczNTE0MzI1N30.X5zmbAYLGh6IIv2hx4VvetFjlyMNhzdx_o7a9Qg1SKs",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "6db1badf-65e5-495c-bb6e-d02841d70e6a",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:15:43,253 - INFO - {
+    "timestamp": "2024-12-25 21:15:43",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGM4YjU2ZDMtZGZmMS00MTM4LTg5NGItNGIyYWYwMzY2MjA3IiwiZW1haWwiOiJyaXlhQGdtYWlsLmNvbSIsInJvbGUiOiJkb25vciIsImV4cCI6MTczNTE0MzI1N30.X5zmbAYLGh6IIv2hx4VvetFjlyMNhzdx_o7a9Qg1SKs",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ef926223-a949-4ae3-9635-f5d2d7e9f0e8",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:15:43,255 - INFO - {
+    "timestamp": "2024-12-25 21:15:43",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "228",
+        "content-type": "application/json"
+    },
+    "user_id": "8c8b56d3-dff1-4138-894b-4b2af0366207",
+    "user_role": "donor"
+} 
+2024-12-25 21:16:25,947 - INFO - {
+    "timestamp": "2024-12-25 21:16:25",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "8a2c3bc7-4099-4958-8731-7197b5fa9338",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:16:41,296 - INFO - {
+    "timestamp": "2024-12-25 21:16:41",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:16:52,865 - INFO - {
+    "timestamp": "2024-12-25 21:16:52",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "1c4bdc49-78a9-489d-a3c2-5bc5a527e7ab",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:16:52,868 - INFO - {
+    "timestamp": "2024-12-25 21:16:52",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:17:05,735 - INFO - {
+    "timestamp": "2024-12-25 21:17:05",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "bb770391-a6ae-47e7-a152-6d60ee8a1950",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "187"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Matt42@gmail.com",
+        "phone_no": "723-251-8086",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Melvina3"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:17:48,892 - INFO - {
+    "timestamp": "2024-12-25 21:17:48",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "c8a5acbc-0d53-4f30-9579-6ab66e43ad1b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "198"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Daisy.Welch75@yahoo.com",
+        "phone_no": "291-896-7526",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Neva.Ortiz63"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:17:54,122 - INFO - {
+    "timestamp": "2024-12-25 21:17:54",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "64",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:37:30,205 - INFO - {
+    "timestamp": "2024-12-25 21:37:30",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "98ca3565-d52d-4cea-8926-76dbdad46b3d",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "190"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Dell12@gmail.com",
+        "phone_no": "973-357-2372",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Edward.Will"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:37:34,534 - INFO - {
+    "timestamp": "2024-12-25 21:37:34",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "62",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:38:55,651 - INFO - {
+    "timestamp": "2024-12-25 21:38:55",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "657854c0-655d-49b2-87bb-d5eeb80f97eb",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "201"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Laurel_Kuhlman92@hotmail.com",
+        "phone_no": "843-358-9789",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Flo_Beahan"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:39:07,023 - INFO - {
+    "timestamp": "2024-12-25 21:39:07",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "52",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:42:05,737 - INFO - {
+    "timestamp": "2024-12-25 21:42:05",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "15d3eca2-a89f-44cb-a764-dfed98d6c89c",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "196"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Darby13@hotmail.com",
+        "phone_no": "674-383-4283",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Nannie.Runte47"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:42:09,881 - INFO - {
+    "timestamp": "2024-12-25 21:42:09",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "52",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:42:16,665 - INFO - {
+    "timestamp": "2024-12-25 21:42:16",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "9bb91140-40d7-42d1-9fcd-d8ce1fd6c73d",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:42:16,667 - INFO - {
+    "timestamp": "2024-12-25 21:42:16",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/all",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "1250",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:42:30,137 - INFO - {
+    "timestamp": "2024-12-25 21:42:30",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "e1591f4e-e10e-4350-839d-554ed2d3b453",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:42:30,138 - INFO - {
+    "timestamp": "2024-12-25 21:42:30",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "280",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:42:43,524 - INFO - {
+    "timestamp": "2024-12-25 21:42:43",
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ecfcac16-bfab-4db4-98b6-9f6081c8cf52",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "176"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Jarrett3@gmail.com",
+        "phone_no": "211-363-2595",
+        "address": "random addresses",
+        "details": "can accept money only",
+        "name": "Tyshawn.Swift78"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:42:47,699 - INFO - {
+    "timestamp": "2024-12-25 21:42:47",
+    "status_code": 200,
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "52",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:42:52,939 - INFO - {
+    "timestamp": "2024-12-25 21:42:52",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "1d04d66b-06c9-47a3-a0d0-195b3feb31df",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:42:52,940 - INFO - {
+    "timestamp": "2024-12-25 21:42:52",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "260",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:42:59,945 - INFO - {
+    "timestamp": "2024-12-25 21:42:59",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "6a96e190-0542-4018-94ea-e05df9fcacad",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:42:59,951 - INFO - {
+    "timestamp": "2024-12-25 21:42:59",
+    "status_code": 200,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "52",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:43:05,059 - INFO - {
+    "timestamp": "2024-12-25 21:43:05",
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "7bb71a8f-6543-4c96-aa5c-a1498fe1e1ee",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "175"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Elinor51@hotmail.com",
+        "phone_no": "339-871-0524",
+        "address": "random addresses",
+        "details": "can accept money only",
+        "name": "Alexa_Kemmer"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:43:09,097 - INFO - {
+    "timestamp": "2024-12-25 21:43:09",
+    "status_code": 404,
+    "method": "PUT",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:43:14,803 - INFO - {
+    "timestamp": "2024-12-25 21:43:14",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "3c97b46c-e5dc-4fff-ba29-8d1acc6bb777",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:43:14,804 - INFO - {
+    "timestamp": "2024-12-25 21:43:14",
+    "status_code": 404,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:46:40,930 - INFO - {
+    "timestamp": "2024-12-25 21:46:40",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "f5fe6877-c76d-4229-b3be-f4751eedd9bd",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:53:09,578 - INFO - {
+    "timestamp": "2024-12-25 21:53:09",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5fc447be-3601-4828-9f01-39f8e77bde06",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:53:09,580 - INFO - {
+    "timestamp": "2024-12-25 21:53:09",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:54:20,407 - INFO - {
+    "timestamp": "2024-12-25 21:54:20",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "e3849991-164d-403f-b33c-750894f81028",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 21:54:20,411 - INFO - {
+    "timestamp": "2024-12-25 21:54:20",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 21:55:04,851 - INFO - {
+    "timestamp": "2024-12-25 21:55:04",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "cef3df4d-e7bb-4869-9a5b-16abda27660f",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:21:37,743 - INFO - {
+    "timestamp": "2024-12-25 22:21:37",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5a8dfe55-6d21-4240-85b6-6e6c1fdccd2c",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:22:25,271 - INFO - {
+    "timestamp": "2024-12-25 22:22:25",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "d273973b-8496-44d0-8536-b339fef2cbe2",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:23:07,241 - INFO - {
+    "timestamp": "2024-12-25 22:23:07",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "510671ff-b1cb-4306-8a28-1071a23c2f50",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:23:57,874 - INFO - {
+    "timestamp": "2024-12-25 22:23:57",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "f9039ee7-343c-409a-9c9d-b1ecc605f0ad",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:25:21,125 - INFO - {
+    "timestamp": "2024-12-25 22:25:21",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "9df05cde-82cd-4966-821a-9bfb8defbefa",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:29:41,196 - INFO - {
+    "timestamp": "2024-12-25 22:29:41",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "45921266-2513-4ab0-8334-daf9e404b8e6",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 22:43:01,022 - INFO - {
+    "timestamp": "2024-12-25 22:43:01",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "3b6809f1-9be2-4859-bff1-990acfcbb46e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:05:28,375 - INFO - {
+    "timestamp": "2024-12-25 23:05:28",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNDUyMDF9.3hsZC6iuJhTdpCay2Srd1GIbXv6OupQXGQBd0kAk_lc",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "4f96cb6a-d426-4c06-a90a-bacb522d58ab",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:05:28,377 - INFO - {
+    "timestamp": "2024-12-25 23:05:28",
+    "status_code": 401,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "46",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:05:34,332 - INFO - {
+    "timestamp": "2024-12-25 23:05:34",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "400a1b03-ab2d-41ce-9b2b-5c6f39f4937c",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:05:38,909 - INFO - {
+    "timestamp": "2024-12-25 23:05:38",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:05:43,521 - INFO - {
+    "timestamp": "2024-12-25 23:05:43",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "49e1e294-f344-45dd-80ed-4652ee99bd15",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:05:43,523 - INFO - {
+    "timestamp": "2024-12-25 23:05:43",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 23:07:49,282 - INFO - {
+    "timestamp": "2024-12-25 23:07:49",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ec97a121-b53a-423a-8472-ab37e009e810",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:07:49,284 - INFO - {
+    "timestamp": "2024-12-25 23:07:49",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 23:09:24,578 - INFO - {
+    "timestamp": "2024-12-25 23:09:24",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "d9124cf1-c927-4912-a400-3cbffbfe464d",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:09:24,580 - INFO - {
+    "timestamp": "2024-12-25 23:09:24",
+    "status_code": 404,
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "response_data": {},
+    "response_headers": {
+        "content-length": "54",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-25 23:10:17,110 - INFO - {
+    "timestamp": "2024-12-25 23:10:17",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "af6e2aa0-98d6-40b1-8acd-1d59def43847",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:10:43,785 - INFO - {
+    "timestamp": "2024-12-25 23:10:43",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "d97e2c0b-f825-40f9-8e35-5cd557eac77b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:11:09,157 - INFO - {
+    "timestamp": "2024-12-25 23:11:09",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "f44cec0b-65cf-4dd9-bd8d-6e1fe74ac761",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-25 23:12:56,734 - INFO - {
+    "timestamp": "2024-12-25 23:12:56",
+    "method": "DELETE",
+    "url": "http://127.0.0.1:5000/admin/ngo/cbc0e55e-a8ff-4ae0-b4d8-ec82083b8010",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxNTE3Mzh9.C-_qDuvsH01iOOqmIgyGgtQpMGoIqs25oulEke-lSJM",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "87fe2071-288d-4003-975e-9d11aa1e8338",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:38:37,363 - INFO - {
+    "timestamp": "2024-12-26 09:38:37",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5c36ac5d-bab3-45fa-a18b-a6fa7b068acb",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:40:03,613 - INFO - {
+    "timestamp": "2024-12-26 09:40:03",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "a98ab581-4f2e-40b0-b1cb-7d38e1db28c5",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:45:00,591 - INFO - {
+    "timestamp": "2024-12-26 09:45:00",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "286228a6-bb86-4e5f-8d22-2e1edd519daa",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:45:42,089 - INFO - {
+    "timestamp": "2024-12-26 09:45:42",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "240d9d7e-9b43-4217-9f2d-72627a9ffa3b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:46:13,189 - INFO - {
+    "timestamp": "2024-12-26 09:46:13",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "7628225c-4a20-471b-886e-546833f16bea",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:48:34,880 - INFO - {
+    "timestamp": "2024-12-26 09:48:34",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "19e042fa-05f9-4e4d-8e47-ed1974800768",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:48:39,618 - ERROR - Error logging response: name 'StreamingResponse' is not defined 
+2024-12-26 09:49:32,324 - INFO - {
+    "timestamp": "2024-12-26 09:49:32",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "aac19ec2-aecb-4bad-91f8-bf6fca94f2a2",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:49:37,094 - ERROR - Error logging response: name 'StreamingResponse' is not defined 
+2024-12-26 09:50:34,642 - INFO - {
+    "timestamp": "2024-12-26 09:50:34",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "7c9951fa-5cef-4d7e-9f83-2cd5a420137e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:50:39,585 - INFO - {
+    "timestamp": "2024-12-26 09:50:39",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_body": "Response body not available",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:52:25,269 - INFO - {
+    "timestamp": "2024-12-26 09:52:25",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "1687ffe2-76d9-4050-8c28-cb924d6bfbf6",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:52:30,002 - INFO - {
+    "timestamp": "2024-12-26 09:52:30",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_body": "Response body not available",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:55:12,470 - INFO - {
+    "timestamp": "2024-12-26 09:55:12",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "13490447-00b8-43ed-8626-4624e87814b4",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:55:17,227 - INFO - {
+    "timestamp": "2024-12-26 09:55:17",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "content_type": "application/json",
+    "response_body": "Failed to decode response body: '_StreamingResponse' object has no attribute 'body'",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:56:41,033 - INFO - {
+    "timestamp": "2024-12-26 09:56:41",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "03f17a96-1c44-40e5-b67a-ebbf3f61e0fc",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 09:56:47,108 - ERROR - Error logging response: '_StreamingResponse' object has no attribute 'body' 
+2024-12-26 09:59:38,966 - INFO - {
+    "timestamp": "2024-12-26 09:59:38",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "f95e0a64-42fb-4f6c-a93a-d9b5d8f44c77",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 10:00:48,139 - INFO - {
+    "timestamp": "2024-12-26 10:00:48",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "044d261b-104b-4377-bc79-619ca28daec1",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 10:00:52,872 - ERROR - Error logging response: '_StreamingResponse' object has no attribute 'body' 
+2024-12-26 10:01:05,519 - INFO - {
+    "timestamp": "2024-12-26 10:01:05",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5976daef-9251-4804-bbae-e1deb9b18bbe",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 10:01:10,149 - ERROR - Error logging response: '_StreamingResponse' object has no attribute 'body' 
+2024-12-26 10:08:05,250 - INFO - Request: {
+    "timestamp": "2024-12-26 10:08:05",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "3e769c53-2b86-4609-b628-90904e4103fe",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:08:05,306 - ERROR - Exception: {
+    "timestamp": "2024-12-26 10:08:05",
+    "error_message": "name 'get_user_from_context' is not defined",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 111, in receive\n    return self.receive_nowait()\n           ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 106, in receive_nowait\n    raise WouldBlock\nanyio.WouldBlock\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 124, in receive\n    return receiver.item\n           ^^^^^^^^^^^^^\nAttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 157, in call_next\n    message = await recv_stream.receive()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 126, in receive\n    raise EndOfStream\nanyio.EndOfStream\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 234, in dispatch\n    response = await call_next(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 185, in __call__\n    with collapse_excgroups():\n         ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py\", line 162, in __exit__\n    self.gen.throw(value)\n    ~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_utils.py\", line 82, in collapse_excgroups\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 187, in __call__\n    response = await self.dispatch_func(request, call_next)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 32, in dispatch\n    user_data = get_user_from_context(request)\n                ^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'get_user_from_context' is not defined\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/login",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "3e769c53-2b86-4609-b628-90904e4103fe",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:09:01,657 - INFO - Request: {
+    "timestamp": "2024-12-26 10:09:01",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5dc701b7-70e5-4aae-a6f5-639f3d70440e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:09:01,702 - ERROR - Exception: {
+    "timestamp": "2024-12-26 10:09:01",
+    "error_message": "name 'get_user_from_context' is not defined",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 111, in receive\n    return self.receive_nowait()\n           ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 106, in receive_nowait\n    raise WouldBlock\nanyio.WouldBlock\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 124, in receive\n    return receiver.item\n           ^^^^^^^^^^^^^\nAttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 157, in call_next\n    message = await recv_stream.receive()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 126, in receive\n    raise EndOfStream\nanyio.EndOfStream\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 234, in dispatch\n    response = await call_next(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 185, in __call__\n    with collapse_excgroups():\n         ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py\", line 162, in __exit__\n    self.gen.throw(value)\n    ~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_utils.py\", line 82, in collapse_excgroups\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 187, in __call__\n    response = await self.dispatch_func(request, call_next)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 32, in dispatch\n    user_data = get_user_from_context(request)\n                ^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'get_user_from_context' is not defined\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/login",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5dc701b7-70e5-4aae-a6f5-639f3d70440e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:09:29,395 - INFO - Request: {
+    "timestamp": "2024-12-26 10:09:29",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "0db64fd7-845b-4f3b-ad03-8fc474d92ab6",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:09:29,397 - INFO - {
+    "timestamp": "2024-12-26 10:09:29",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "0db64fd7-845b-4f3b-ad03-8fc474d92ab6",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 10:09:34,364 - INFO - Response: {
+    "timestamp": "2024-12-26 10:09:34",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:11:56,234 - INFO - Request: {
+    "timestamp": "2024-12-26 10:11:56",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ba03d3e2-62e5-4b48-a3a5-d87be355ff25",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:11:56,235 - INFO - {
+    "timestamp": "2024-12-26 10:11:56",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ba03d3e2-62e5-4b48-a3a5-d87be355ff25",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 10:12:00,656 - ERROR - Exception: {
+    "timestamp": "2024-12-26 10:12:00",
+    "error_message": "object dict can't be used in 'await' expression",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 111, in receive\n    return self.receive_nowait()\n           ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 106, in receive_nowait\n    raise WouldBlock\nanyio.WouldBlock\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 124, in receive\n    return receiver.item\n           ^^^^^^^^^^^^^\nAttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 157, in call_next\n    message = await recv_stream.receive()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 126, in receive\n    raise EndOfStream\nanyio.EndOfStream\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 234, in dispatch\n    response = await call_next(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 185, in __call__\n    with collapse_excgroups():\n         ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py\", line 162, in __exit__\n    self.gen.throw(value)\n    ~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_utils.py\", line 82, in collapse_excgroups\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 187, in __call__\n    response = await self.dispatch_func(request, call_next)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 51, in dispatch\n    response = await call_next(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 185, in __call__\n    with collapse_excgroups():\n         ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py\", line 162, in __exit__\n    self.gen.throw(value)\n    ~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_utils.py\", line 82, in collapse_excgroups\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 187, in __call__\n    response = await self.dispatch_func(request, call_next)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\auth_middleware.py\", line 17, in dispatch\n    return await call_next(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\exceptions.py\", line 62, in __call__\n    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 53, in wrapped_app\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 42, in wrapped_app\n    await app(scope, receive, sender)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 715, in __call__\n    await self.middleware_stack(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 735, in app\n    await route.handle(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 288, in handle\n    await self.app(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 76, in app\n    await wrap_app_handling_exceptions(app, request)(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 53, in wrapped_app\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 42, in wrapped_app\n    await app(scope, receive, sender)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\fastapi\\routing.py\", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\fastapi\\routing.py\", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\routes\\donor_routes.py\", line 19, in login\n    return await self.handler.login(user)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object dict can't be used in 'await' expression\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/login",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ba03d3e2-62e5-4b48-a3a5-d87be355ff25",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:30:03,513 - INFO - Request: {
+    "timestamp": "2024-12-26 10:30:03",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "de9398a3-f8a1-4c03-a80e-5e0d65ce4480",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:30:08,168 - ERROR - Exception: {
+    "timestamp": "2024-12-26 10:30:08",
+    "error_message": "object JSONResponse can't be used in 'await' expression",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 111, in receive\n    return self.receive_nowait()\n           ~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 106, in receive_nowait\n    raise WouldBlock\nanyio.WouldBlock\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 124, in receive\n    return receiver.item\n           ^^^^^^^^^^^^^\nAttributeError: 'MemoryObjectItemReceiver' object has no attribute 'item'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 157, in call_next\n    message = await recv_stream.receive()\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py\", line 126, in receive\n    raise EndOfStream\nanyio.EndOfStream\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 214, in dispatch\n    response = await call_next(request)\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 185, in __call__\n    with collapse_excgroups():\n         ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\rgoyal\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\contextlib.py\", line 162, in __exit__\n    self.gen.throw(value)\n    ~~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_utils.py\", line 82, in collapse_excgroups\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 187, in __call__\n    response = await self.dispatch_func(request, call_next)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\auth_middleware.py\", line 17, in dispatch\n    return await call_next(request)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 163, in call_next\n    raise app_exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py\", line 149, in coro\n    await self.app(scope, receive_or_disconnect, send_no_error)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\middleware\\exceptions.py\", line 62, in __call__\n    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 53, in wrapped_app\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 42, in wrapped_app\n    await app(scope, receive, sender)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 715, in __call__\n    await self.middleware_stack(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 735, in app\n    await route.handle(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 288, in handle\n    await self.app(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 76, in app\n    await wrap_app_handling_exceptions(app, request)(scope, receive, send)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 53, in wrapped_app\n    raise exc\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py\", line 42, in wrapped_app\n    await app(scope, receive, sender)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\routing.py\", line 73, in app\n    response = await f(request)\n               ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\fastapi\\routing.py\", line 301, in app\n    raw_response = await run_endpoint_function(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\fastapi\\routing.py\", line 212, in run_endpoint_function\n    return await dependant.call(**values)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\routes\\donor_routes.py\", line 19, in login\n    return await self.handler.login(user)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: object JSONResponse can't be used in 'await' expression\n",
+    "request_method": "POST",
+    "request_url": "http://127.0.0.1:5000/login",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "de9398a3-f8a1-4c03-a80e-5e0d65ce4480",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:30:34,489 - INFO - Request: {
+    "timestamp": "2024-12-26 10:30:34",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "aea08520-5da7-4942-b5db-1dcf8a9d2f70",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:30:38,857 - INFO - Response: {
+    "timestamp": "2024-12-26 10:30:38",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:38:38,299 - INFO - Request: {
+    "timestamp": "2024-12-26 10:38:38",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "edcd979d-be61-40c7-b6bb-055b42b0bec7",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:38:43,138 - INFO - Response: {
+    "timestamp": "2024-12-26 10:38:43",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:44:46,221 - INFO - Request: {
+    "timestamp": "2024-12-26 10:44:46",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "a7795b39-2494-4bc4-a7c0-174a70ca844e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:44:50,793 - INFO - Response: {
+    "timestamp": "2024-12-26 10:44:50",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:45:38,736 - INFO - Request: {
+    "timestamp": "2024-12-26 10:45:38",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "c98cd9dc-72b7-4acf-8672-f5e5d888ead7",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:45:43,092 - INFO - Response: {
+    "timestamp": "2024-12-26 10:45:43",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 

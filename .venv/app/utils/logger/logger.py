@@ -32,6 +32,18 @@ class Logger:
         # Adding Handler
         self.logger.addHandler(file_handler)
 
+    def _sanitize_body(self,body):
+        """
+        This method sanitizes the request body to remove sensitive information.
+        """
+        if isinstance(body, dict):
+            sanitized_body = body.copy()
+            for key in sanitized_body:
+                if key.lower() in ['password']:
+                    sanitized_body[key] = "****"
+            return sanitized_body
+        return body
+
     # Convenience methods for logging
     def info(self, message: str):
         self.logger.info(message)

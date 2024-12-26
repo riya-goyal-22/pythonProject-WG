@@ -1,35 +1,56 @@
 from app.config.config import TOKEN_MISSING, TOKEN_INVALID, TOKEN_EXPIRED
 from app.models.response import CustomResponse
 from app.utils.errors.custom_errors import TokenExpiredError, TokenInvalidError
-from flask import request, jsonify, g
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi import Request, Security
 from app.utils.utilities.token import decode_token
+from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
+from starlette.responses import Response
+from utils.errors.custom_errors import CustomHTTPException
+from utils.utilities.context import set_user_to_context
 
+security = HTTPBearer()
 
-def auth_middleware():
-    if request.path in ['/user/login', '/user/signup', '/']:
-        return None
+class AuthMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next: RequestResponseEndpoint) -> Response:
+        if request.url.path in ['/login', '/signup', '/', '/docs', '/openapi.json']:
+            return await call_next(request)
 
-    auth_token = request.headers.get('Authorization')
-    if not auth_token or not auth_token.startswith('Bearer '):
-        return CustomResponse(TOKEN_MISSING, "Unauthorized-Missing Token", None).to_dict(), 401
+        try:
+            # Get token
+            token = request.headers.get("Authorization")
+            if token:
+                token = token.split("Bearer ")[-1]
 
-    token = auth_token.split(' ')[1]
-    try:
-        # Decode the token using the secret key
-        decoded_token = decode_token(token)
+            if not token:
+                return CustomResponse(http_status_code=401, status_code=TOKEN_MISSING, message="Missing token").to_response()
 
-        # Extract user_id and role from the decoded token
-        user_id = decoded_token.get("user_id")
-        role = decoded_token.get("role")
+            # Decode the token using the secret key
+            decoded_token = decode_token(token)
 
-        if not user_id or not role:
-            return CustomResponse(TOKEN_INVALID, "Unauthorized, invalid token payload", None).to_dict(), 401
+            # Extract user_id and role from the decoded token
+            user_id = decoded_token.get("user_id")
+            role = decoded_token.get("role")
 
-        # Set user_id and role in Flask's global context
-        g.user_id = user_id
-        g.role = role
+            if not user_id or not role:
+                return CustomResponse(http_status_code=401, status_code=TOKEN_INVALID, message="Unauthorized, invalid token payload").to_response()
 
-    except TokenExpiredError as e:
-        return CustomResponse(TOKEN_EXPIRED, str(e), None).to_dict(), 401
-    except TokenInvalidError as e:
-        return CustomResponse(TOKEN_INVALID, str(e), None).to_dict(), 401
+            # Set user_id and role in request context
+            user_data = {
+                "user_id": user_id,
+                "role": role
+            }
+            set_user_to_context(request, user_data)
+
+        except TokenExpiredError as e:
+            return CustomResponse(http_status_code=401, status_code=TOKEN_EXPIRED, message=str(e)).to_response()
+
+        except TokenInvalidError as e:
+            return CustomResponse(http_status_code=401, status_code=TOKEN_INVALID, message=str(e)).to_response()
+
+        except Exception as e:
+            return CustomResponse(http_status_code=401, status_code=TOKEN_INVALID, message=str(e)).to_response()
+
+        response = await call_next(request)
+        return response
+

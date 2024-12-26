@@ -1,3 +1,7 @@
+from fastapi import HTTPException, Request
+from starlette.responses import JSONResponse
+
+
 class UserError(Exception):
     """Base exception class for all user-related errors"""
     pass
@@ -60,3 +64,30 @@ class TokenInvalidError(Exception):
     """Base exception class for invalid token"""
     def __init__(self):
         super().__init__("Token Invalid")
+
+
+class CustomHTTPException(HTTPException):
+    def __init__(
+            self,
+            status_code: int,
+            error_code: int,
+            message: str,
+    ) -> None:
+        self.status_code = status_code
+        self.error_code = error_code
+        self.message = message
+        super().__init__(status_code=status_code, detail=message)
+
+
+async def custom_http_exception_handler(
+        request: Request,
+        exc: CustomHTTPException
+) -> JSONResponse:
+    print(f"Handling custom exception: {exc.message}")
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "error_code": exc.error_code,
+            "message": exc.message
+        }
+    )

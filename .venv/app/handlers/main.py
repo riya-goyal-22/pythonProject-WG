@@ -1,7 +1,5 @@
 from app.handlers.admin_handler import AdminHandler
 from app.handlers.donor_handler import DonorHandler
-from app.middlewares.auth_middleware import auth_middleware
-from app.middlewares.logger_middleware import log_request_middleware, log_response_middleware, log_exceptions
 from app.repositories.ngo_repository import NGORepository
 from app.repositories.user_repository import UserRepository
 from app.routes.donor_routes import DonorRoutes
@@ -10,25 +8,30 @@ from app.services.admin_service import AdminService
 from app.services.donor_service import DonorService
 from app.utils.db.db import DB_Instance
 from app.utils.logger.logger import Logger
-from flask import Flask
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.exception_handlers import http_exception_handler
+from middlewares.auth_middleware import AuthMiddleware
+from middlewares.logger_middleware import LogMiddleware
+from utils.errors.custom_errors import CustomHTTPException, custom_http_exception_handler
 
 
 def create_app():
     logger = Logger()
-    app = Flask(__name__)
-    app.before_request(auth_middleware)
+    app = FastAPI(title='NGO Management')
 
-    @app.before_request
-    def before_request():
-        log_request_middleware(logger)
+    app.add_exception_handler(CustomHTTPException, custom_http_exception_handler)
 
-    @app.after_request
-    def after_request(response):
-        return log_response_middleware(logger, response)
-
-    @app.errorhandler(Exception)
-    def handle_exceptions(e: Exception):
-        return log_exceptions(logger, e)
+    # Add logging middlewares
+    app.add_middleware(AuthMiddleware)
+    app.add_middleware(LogMiddleware,logger=logger)
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"]
+    )
 
     db = DB_Instance.get_connection()
 
@@ -41,24 +44,14 @@ def create_app():
     donor_handler = DonorHandler(donor_service)
     admin_handler = AdminHandler(admin_service)
 
-    # Register blueprints
-    app.register_blueprint(
-        DonorRoutes(donor_handler).register_routes(),
-        url_prefix='/user'
-    )
-
-    app.register_blueprint(
-        AdminRoutes(admin_handler).register_routes(),
-        url_prefix='/admin'
-    )
-
-    @app.route('/')
-    def index():
-        return "Everything's working great"
+    # include routers
+    app.include_router(DonorRoutes(donor_handler).register_routes())
+    app.include_router(AdminRoutes(admin_handler).register_routes())
 
     return app
 
 
 if __name__ == "__main__":
+    import uvicorn
     app = create_app()
-    app.run(debug=True)
+    uvicorn.run(app, host="127.0.0.1", port=5000)

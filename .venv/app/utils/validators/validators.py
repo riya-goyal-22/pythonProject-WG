@@ -62,3 +62,12 @@ class Validator:
             return True
         else:
             return False
+
+    @staticmethod
+    def is_valid_name(name: str) -> bool:
+        """
+        Validate if the given name is valid (2 < len < 16).
+        :param name:
+        :return:
+        """
+        return 2 < len(name) < 16

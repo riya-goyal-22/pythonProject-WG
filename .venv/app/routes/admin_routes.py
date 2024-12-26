@@ -1,29 +1,24 @@
-from flask import Blueprint
+from app.models.new_ngo import NewNGO
+from fastapi import APIRouter, Request
 from app.handlers.admin_handler import AdminHandler
 
 
 class AdminRoutes:
     def __init__(self, admin_handler: AdminHandler):
         self.handler = admin_handler
-        self.blueprint = Blueprint('admin', __name__)
+        self.router = APIRouter(tags=["admin"])
 
     def register_routes(self):
-        self.blueprint.add_url_rule(
-            '/ngo',
-            'create_ngo',
-            self.handler.create_ngo,
-            methods=['POST']
-        )
-        self.blueprint.add_url_rule(
-            '/ngo/<ngo_id>',
-            'update_ngo',
-            self.handler.update_ngo,
-            methods=['PUT']
-        )
-        self.blueprint.add_url_rule(
-            '/ngo/<ngo_id>',
-            'delete_ngo',
-            self.handler.delete_ngo,
-            methods=['DELETE']
-        )
-        return self.blueprint
+        @self.router.post("/admin/ngo")
+        async def create_NGO(ngo: NewNGO,request: Request):
+            return self.handler.create_ngo(request=request, data=ngo)
+
+        @self.router.put("/admin/ngo/{ngo_id}")
+        async def update_NGO(ngo: NewNGO,ngo_id: str,request: Request):
+            return self.handler.update_ngo(request=request, ngo_id=ngo_id, data=ngo)
+
+        @self.router.delete("/admin/ngo/{ngo_id}")
+        async def delete_NGO(ngo_id: str,request: Request):
+            return self.handler.delete_ngo(request=request,ngo_id=ngo_id)
+
+        return self.router

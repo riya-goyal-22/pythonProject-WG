@@ -1,19 +1,29 @@
 from dataclasses import dataclass
+from typing import Optional, Any
+from starlette.responses import JSONResponse
 
 
 @dataclass
 class CustomResponse:
     status_code: int
     message: str
-    data: any
+    http_status_code: int = 200
+    data: Optional[Any] = None
 
     def to_dict(self):
-        return {
+        response = {
             'status_code': self.status_code,
             'message': self.message,
-            'data': self.data
         }
 
-    @classmethod
-    def from_dict(cls, data_dict):
-        return cls(**data_dict)
+        if self.data is not None:
+            response.update({'data': self.data})
+
+        return response
+
+    def to_response(self):
+        """Convert to FastAPI JSONResponse with proper HTTP status code"""
+        return JSONResponse(
+            status_code=self.http_status_code,
+            content=self.to_dict()
+        )
