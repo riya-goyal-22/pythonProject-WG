@@ -62,6 +62,16 @@ class TestValidator(unittest.TestCase):
         invalid_phone_with_letters = '123-456-abc0'
         self.assertFalse(Validator.validate_phone_no(invalid_phone_with_letters))
 
+    def test_is_valid_name(self):
+        valid_name = 'test user'
+        self.assertTrue(Validator.is_valid_name(valid_name))
+
+        invalid_name = ''
+        self.assertFalse(Validator.is_valid_name(invalid_name))
+
+        invalid_name = 'w'
+        self.assertFalse(Validator.is_valid_name(invalid_name))
+
 
 if __name__ == '__main__':
     unittest.main()
