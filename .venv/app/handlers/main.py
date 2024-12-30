@@ -11,9 +11,9 @@ from app.utils.logger.logger import Logger
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exception_handlers import http_exception_handler
-from middlewares.auth_middleware import AuthMiddleware
-from middlewares.logger_middleware import LogMiddleware
-from utils.errors.custom_errors import CustomHTTPException, custom_http_exception_handler
+from app.middlewares.auth_middleware import AuthMiddleware
+from app.middlewares.logger_middleware import LogMiddleware
+from app.utils.errors.custom_errors import CustomHTTPException, custom_http_exception_handler
 
 
 def create_app():
@@ -23,8 +23,10 @@ def create_app():
     app.add_exception_handler(CustomHTTPException, custom_http_exception_handler)
 
     # Add logging middlewares
+    app.add_middleware(LogMiddleware, logger=logger)
     app.add_middleware(AuthMiddleware)
-    app.add_middleware(LogMiddleware,logger=logger)
+
+    # app.add_middleware(LogRequestMiddleware,logger=logger)
     app.add_middleware(
         CORSMiddleware,
         allow_origins=["*"],

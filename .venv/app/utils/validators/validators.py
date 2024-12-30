@@ -28,6 +28,11 @@ class Validator:
         if len(password) < 8:
             return False
 
+        # Check if password contains common passwords
+        common_passwords = ['password', '123456']
+        if password.lower() in common_passwords:
+            return False
+
         # Check for at least one uppercase letter
         if not re.search(r'[A-Z]', password):
             return False
@@ -42,11 +47,6 @@ class Validator:
 
         # Check for at least one special character
         if not re.search(r'[@#$%^&+=]', password):
-            return False
-
-        # Check if password contains common passwords
-        common_passwords = ['password', '123456']
-        if password.lower() in common_passwords:
             return False
 
         # If all checks pass, the password is valid

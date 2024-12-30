@@ -34,8 +34,16 @@ class TestValidator(unittest.TestCase):
         self.assertTrue(Validator.is_valid_password(valid_password))
 
         # Invalid password (too short)
-        invalid_password_short = 'Test@1'
+        invalid_password_short = 'TEST'
         self.assertFalse(Validator.is_valid_password(invalid_password_short))
+
+        # Invalid password (no lowercase)
+        invalid_password = 'TESTTEST@1'
+        self.assertFalse(Validator.is_valid_password(invalid_password))
+
+        # Invalid password (no special character)
+        invalid_password = 'Test123456'
+        self.assertFalse(Validator.is_valid_password(invalid_password))
 
         # Invalid password (no uppercase)
         invalid_password_no_upper = 'test@1234'

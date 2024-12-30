@@ -117,6 +117,23 @@ class TestAdminHandler:
         assert body_dict == expected_response
         admin_handler.user_service.update_ngo.assert_called_once()
 
+    def test_update_ngo_database_error(self, admin_handler, mock_request, sample_ngo_data):
+        # Arrange
+        ngo_id = "123"
+        admin_handler.user_service.update_ngo.side_effect = DatabaseError("Internal server error")
+
+        # Act
+        result = admin_handler.update_ngo(mock_request, ngo_id, sample_ngo_data)
+
+        # Assert
+        result_dict = result.__dict__
+
+        import json
+        body_dict = json.loads(result_dict['body'])
+
+        assert result.status_code == 500
+        assert "Internal server error" in body_dict['message']
+
     def test_update_ngo_not_exists(self, admin_handler, mock_request, sample_ngo_data):
         # Arrange
         ngo_id = "123"

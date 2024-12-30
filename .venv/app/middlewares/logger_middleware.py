@@ -3,7 +3,7 @@ from app.models.response import CustomResponse
 from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
 from starlette.requests import Request
 from starlette.responses import Response, JSONResponse
-from utils.utilities.context import get_user_from_context
+from app.utils.utilities.context import get_user_from_context
 from fastapi import FastAPI, Request, Response
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import JSONResponse
@@ -13,121 +13,6 @@ from app.utils.logger.logger import Logger
 import json
 import traceback
 from fastapi.responses import StreamingResponse
-
-
-# class LogRequestMiddleware(BaseHTTPMiddleware):
-#     def __init__(self, app, logger: Logger):
-#         super().__init__(app)
-#         self.logger = logger
-#
-#     async def dispatch(self, request: Request, call_next: RequestResponseEndpoint) -> Response:
-#         request_time = (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
-#         user_data = get_user_from_context(request)
-#         user_id = user_data["user_id"] if user_data else ""
-#         user_role = user_data["role"] if user_data else ""
-#         body = await request.json() if request.method in ['POST', 'PUT', 'PATCH'] else {}
-#         sanitized_body = self.logger._sanitize_body(body)
-#         log_data = {
-#             "timestamp": request_time,
-#             "method": request.method,
-#             "url": str(request.url),
-#             "remote_addr": request.client.host,
-#             "headers": dict(request.headers),
-#             "query_params": dict(request.query_params),
-#             "body": sanitized_body,
-#             "user_agent": request.headers.get('User-Agent'),
-#             "user_id": user_id,
-#             "user_role": user_role
-#         }
-#         self.logger.info(json.dumps(log_data, indent=4))
-#
-#         response = await call_next(request)
-#         return response
-
-#
-# # class LogResponseMiddleware(BaseHTTPMiddleware):
-# #     def __init__(self, app, logger: Logger):
-# #         super().__init__(app)
-# #         self.logger = logger
-# #
-# #     async def dispatch(self, request: Request, call_next: RequestResponseEndpoint) -> Response:
-# #         response = await call_next(request)
-# #
-# #         response_time = (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
-# #         user_data = get_user_from_context(request)
-# #         user_id = user_data['user_id'] if user_data else ""
-# #         user_role = user_data['role'] if user_data else ""
-# #         response_data =  response
-# #
-# #         log_data = {
-# #             "timestamp": response_time,
-# #             "status_code": response.status_code,
-# #             "method": request.method,
-# #             "url": str(request.url),
-# #             "response_data": response_data,
-# #             "response_headers": dict(response.headers),
-# #             "user_id": user_id,
-# #             "user_role": user_role
-# #         }
-# #
-# #         self.logger.info(json.dumps(log_data, indent=4))
-# #         return response
-#
-# class LogResponseMiddleware(BaseHTTPMiddleware):
-#     def __init__(self, app, logger: Logger):
-#         super().__init__(app)
-#         self.logger = logger
-#
-#     async def dispatch(self, request: Request, call_next) -> Response:
-#         original_response = await call_next(request)
-#
-#         response_time = (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
-#         user_data = get_user_from_context(request)
-#         user_id = user_data['user_id'] if user_data else ""
-#         user_role = user_data['role'] if user_data else ""
-#
-#         try:
-#             # Create a copy of the response for logging
-#             response_copy = Response(
-#                 content=await original_response.body() if not isinstance(original_response, StreamingResponse) else b"",
-#                 status_code=original_response.status_code,
-#                 headers=dict(original_response.headers),
-#                 media_type=original_response.media_type
-#             )
-#
-#             # Get response content based on type
-#             if isinstance(original_response, StreamingResponse):
-#                 response_body = {
-#                     "content_type": original_response.media_type,
-#                     "status": "Streaming response - content not logged"
-#                 }
-#             else:
-#                 try:
-#                     if response_copy.headers.get("content-type", "").startswith("application/json"):
-#                         response_body = json.loads(response_copy.body.decode())
-#                     else:
-#                         response_body = response_copy.body.decode()
-#                 except Exception as e:
-#                     response_body = f"Failed to decode response body: {str(e)}"
-#
-#             log_data = {
-#                 "timestamp": response_time,
-#                 "status_code": original_response.status_code,
-#                 "method": request.method,
-#                 "url": str(request.url),
-#                 "content_type": original_response.headers.get("content-type", ""),
-#                 "response_body": response_body,
-#                 "response_headers": dict(original_response.headers),
-#                 "user_id": user_id,
-#                 "user_role": user_role
-#             }
-#
-#             self.logger.info(json.dumps(log_data, indent=4))
-#
-#         except Exception as e:
-#             self.logger.error(f"Error logging response: {str(e)}")
-#
-#         return original_response
 
 
 class LogMiddleware(BaseHTTPMiddleware):
@@ -155,6 +40,9 @@ class LogMiddleware(BaseHTTPMiddleware):
         """
         request_time = (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
         body = await self.get_request_body(request)
+        user_data = get_user_from_context(request)
+        user_id = user_data["user_id"] if user_data else ""
+        user_role = user_data["role"] if user_data else ""
 
         log_data = {
             "timestamp": request_time,
@@ -177,6 +65,9 @@ class LogMiddleware(BaseHTTPMiddleware):
         Logs outgoing response details
         """
         response_time = (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime('%Y-%m-%d %H:%M:%S')
+        user_data = get_user_from_context(request)
+        user_id = user_data["user_id"] if user_data else ""
+        user_role = user_data["role"] if user_data else ""
 
         # Handle different response types
         if isinstance(response, StreamingResponse):
@@ -221,7 +112,6 @@ class LogMiddleware(BaseHTTPMiddleware):
         except Exception as e:
             # Log exception
             self.log_exception(request, e, user_id, user_role)
-            print(e)
             # Return error response
             return JSONResponse(
                 status_code=500,

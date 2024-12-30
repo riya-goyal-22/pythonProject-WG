@@ -4,7 +4,7 @@ from app.handlers.donor_handler import DonorHandler
 from app.models.signup import UserSignup
 from app.models.user import User
 from app.utils.errors.custom_errors import UserExistsError, DatabaseError
-from config.config import DB_ERROR, VALIDATION_FAILURE, UNEXPECTED_ERROR
+from app.config.config import DB_ERROR, VALIDATION_FAILURE, UNEXPECTED_ERROR
 
 
 @pytest.fixture

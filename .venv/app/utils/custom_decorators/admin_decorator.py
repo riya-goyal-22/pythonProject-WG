@@ -3,7 +3,7 @@ from app.utils.enums.role import Role
 from app.models.response import CustomResponse
 from functools import wraps
 from fastapi import Request
-from utils.utilities.context import get_user_from_context
+from app.utils.utilities.context import get_user_from_context
 
 
 def admin(func):

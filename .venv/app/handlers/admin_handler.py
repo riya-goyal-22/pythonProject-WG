@@ -7,7 +7,7 @@ from app.models.response import CustomResponse
 from app.utils.custom_decorators.admin_decorator import admin
 from app.models.ngo import NGO
 from fastapi import Request
-from utils.errors.custom_errors import CustomHTTPException
+from app.utils.errors.custom_errors import CustomHTTPException
 from werkzeug.exceptions import BadRequest, UnsupportedMediaType
 from dataclasses import fields
 from app.config.config import MISSING_REQUEST_BODY, MISSING_REQUIRED_FIELDS, VALIDATION_FAILURE, DB_ERROR, \
@@ -31,9 +31,6 @@ class AdminHandler(UserHandler):
         except DatabaseError:
             return CustomResponse(http_status_code=500,status_code=DB_ERROR, message="Internal server error").to_response()
 
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
-
 
     @admin
     def update_ngo(self, request: Request, ngo_id, data: NewNGO):
@@ -49,9 +46,6 @@ class AdminHandler(UserHandler):
         except DatabaseError as e:
             return CustomResponse(status_code=DB_ERROR, message=str(e), http_status_code=500).to_response()
 
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
-
 
     @admin
     def delete_ngo(self, request: Request, ngo_id):
@@ -64,6 +58,3 @@ class AdminHandler(UserHandler):
 
         except DatabaseError as e:
             return CustomResponse(status_code=DB_ERROR, message=str(e), http_status_code=500).to_response()
-
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()

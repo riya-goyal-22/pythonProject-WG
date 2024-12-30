@@ -1,3 +1,6 @@
 [run]
-# Directories or files to omit from
-coverageomit =    src/app/scripts/*
+# Directories or files to omit from coverage
+omit =
+    app/scripts/*
+    app/routes/*
+    app/utils/db/*

@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from pydantic import BaseModel, field_validator
-from utils.errors.custom_errors import CustomHTTPException
+from app.utils.errors.custom_errors import CustomHTTPException
 from app.config.config import VALIDATION_FAILURE
 from app.utils.validators.validators import Validator
 

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="8" failures="0" skipped="0" tests="8" time="3.105" timestamp="2024-12-27T17:51:10.632860+05:30" hostname="LAP-55341"><testcase classname="tests.handlers_tests.test_main" name="test_app_creation" time="0.005"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035895045424'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035895042736'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035895045424'&gt;, name = '__new__'
+value = &lt;Mock id='3035895046768'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035895045424'&gt;
+value      = &lt;Mock id='3035895046768'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_cors_configuration" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035895053152'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035895051136'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035895053152'&gt;, name = '__new__'
+value = &lt;Mock id='3035895053824'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035895053152'&gt;
+value      = &lt;Mock id='3035895053824'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_routes_require_authentication" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035896121392'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035896119376'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035896121392'&gt;, name = '__new__'
+value = &lt;Mock id='3035896122064'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035896121392'&gt;
+value      = &lt;Mock id='3035896122064'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_custom_error_handler" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035896124416'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035896122400'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035896124416'&gt;, name = '__new__'
+value = &lt;Mock id='3035896125088'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035896124416'&gt;
+value      = &lt;Mock id='3035896125088'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_auth_middleware_valid_token" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035896127440'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035896125424'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035896127440'&gt;, name = '__new__'
+value = &lt;Mock id='3035896128112'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035896127440'&gt;
+value      = &lt;Mock id='3035896128112'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_auth_middleware_invalid_token" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035896130464'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035896128448'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035896130464'&gt;, name = '__new__'
+value = &lt;Mock id='3035896131136'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035896130464'&gt;
+value      = &lt;Mock id='3035896131136'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_dependency_injection" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035895051808'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035895053152'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035895051808'&gt;, name = '__new__'
+value = &lt;Mock id='3035895053824'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035895051808'&gt;
+value      = &lt;Mock id='3035895053824'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase><testcase classname="tests.handlers_tests.test_main" name="test_logging_middleware" time="0.001"><error message="failed on setup with &quot;AttributeError: Attempting to set unsupported magic method '__new__'.&quot;">@pytest.fixture(autouse=True)
+    def mock_logger():
+        # First, create a mock instance
+        mock_instance = Mock()
+        mock_instance.info = Mock()
+        mock_instance.error = Mock()
+        mock_instance.warning = Mock()
+        mock_instance.debug = Mock()
+        mock_instance._initialize_logger = Mock()
+    
+        # Create a patcher that patches the Logger class and its instance
+        with patch('app.utils.logger.logger.Logger') as MockLoggerClass:
+            # Setup the mock class
+            MockLoggerClass._instance = mock_instance
+            MockLoggerClass._lock = Mock()
+            MockLoggerClass.return_value = mock_instance
+            # Mock the __new__ method to return our instance
+&gt;           MockLoggerClass.__new__ = Mock(return_value=mock_instance)
+
+MockLoggerClass = &lt;MagicMock name='Logger' id='3035895043744'&gt;
+mock_instance = &lt;Mock name='Logger._instance' id='3035895050800'&gt;
+
+test_main.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;MagicMock name='Logger' id='3035895043744'&gt;, name = '__new__'
+value = &lt;Mock id='3035895043072'&gt;
+
+    def __setattr__(self, name, value):
+        if name in _allowed_names:
+            # property setters go through here
+            return object.__setattr__(self, name, value)
+        elif (self._spec_set and self._mock_methods is not None and
+            name not in self._mock_methods and
+            name not in self.__dict__):
+            raise AttributeError("Mock object has no attribute '%s'" % name)
+        elif name in _unsupported_magics:
+            msg = 'Attempting to set unsupported magic method %r.' % name
+&gt;           raise AttributeError(msg)
+E           AttributeError: Attempting to set unsupported magic method '__new__'.
+
+msg        = "Attempting to set unsupported magic method '__new__'."
+name       = '__new__'
+self       = &lt;MagicMock name='Logger' id='3035895043744'&gt;
+value      = &lt;Mock id='3035895043072'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:807: AttributeError</error></testcase></testsuite></testsuites>

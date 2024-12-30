@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock
 
-from config.config import TOKEN_INVALID
+from app.config.config import TOKEN_INVALID
 from fastapi import Request
 from app.utils.enums.role import Role
 from app.models.response import CustomResponse

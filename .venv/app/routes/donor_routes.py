@@ -1,7 +1,7 @@
 from app.handlers.donor_handler import DonorHandler
 from fastapi import APIRouter, Request
-from models.login import UserLogin
-from models.signup import UserSignup
+from app.models.login import UserLogin
+from app.models.signup import UserSignup
 
 
 class DonorRoutes:

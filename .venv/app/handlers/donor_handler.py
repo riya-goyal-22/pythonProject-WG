@@ -3,7 +3,7 @@ from app.config.config import MISSING_REQUEST_BODY, MISSING_REQUIRED_FIELDS, VAL
 from app.handlers.user_handler import UserHandler
 from app.models.signup import UserSignup
 from app.services.donor_service import DonorService
-from config.config import UNEXPECTED_ERROR
+from app.config.config import UNEXPECTED_ERROR
 from flask import request, jsonify
 from app.models.response import CustomResponse
 from app.utils.validators.validators import Validator
@@ -27,7 +27,3 @@ class DonorHandler(UserHandler):
 
         except DatabaseError:
             return CustomResponse(status_code=DB_ERROR, message="Internal server error", http_status_code=500).to_response()
-
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
-

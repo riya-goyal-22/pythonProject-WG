@@ -47,13 +47,6 @@ class NotExistsError(Exception):
         super().__init__(message)
 
 
-class InvalidOperationError(Exception):
-    """Base exception class for invalid operations"""
-
-    def __init__(self, message: str):
-        super().__init__(message)
-
-
 class TokenExpiredError(Exception):
     """Base exception class for expired token"""
     def __init__(self):
@@ -83,7 +76,6 @@ async def custom_http_exception_handler(
         request: Request,
         exc: CustomHTTPException
 ) -> JSONResponse:
-    print(f"Handling custom exception: {exc.message}")
     return JSONResponse(
         status_code=exc.status_code,
         content={

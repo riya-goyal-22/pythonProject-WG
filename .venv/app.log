@@ -5631,3 +5631,1078 @@
     "user_id": null,
     "user_role": null
 } 
+2024-12-26 10:46:49,282 - INFO - Request: {
+    "timestamp": "2024-12-26 10:46:49",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "153a0b1a-4338-40d7-ba51-0532c503f92d",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 10:46:53,660 - INFO - Response: {
+    "timestamp": "2024-12-26 10:46:53",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:14:51,999 - INFO - Request: {
+    "timestamp": "2024-12-26 11:14:51",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "908dd5c7-432e-4aac-b4b7-5bc17aeadfb6",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:14:52,001 - INFO - Response: {
+    "timestamp": "2024-12-26 11:14:52",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:16:25,055 - INFO - Request: {
+    "timestamp": "2024-12-26 11:16:25",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "f21409dd-69f8-4494-91f9-e6f4f91fd459",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:16:25,057 - INFO - Response: {
+    "timestamp": "2024-12-26 11:16:25",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:17:42,256 - INFO - {
+    "timestamp": "2024-12-26 11:17:42",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "35e2a630-3636-4ed5-a2ec-e730094b1f36",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:17:42,258 - INFO - Request: {
+    "timestamp": "2024-12-26 11:17:42",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "35e2a630-3636-4ed5-a2ec-e730094b1f36",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:17:42,260 - INFO - Response: {
+    "timestamp": "2024-12-26 11:17:42",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:20:50,930 - ERROR - Exception: {
+    "timestamp": "2024-12-26 11:20:50",
+    "error_message": "'State' object has no attribute 'user'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\datastructures.py\", line 673, in __getattr__\n    return self._state[key]\n           ~~~~~~~~~~~^^^^^\nKeyError: 'user'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 214, in dispatch\n    await self.log_request(request, user_id, user_role)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\middlewares\\logger_middleware.py\", line 158, in log_request\n    user_data = get_user_from_context(request)\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\app\\utils\\utilities\\context.py\", line 6, in get_user_from_context\n    print(request.state.user)\n          ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\rgoyal\\PycharmProjects\\NGO_Management\\.venv\\Lib\\site-packages\\starlette\\datastructures.py\", line 676, in __getattr__\n    raise AttributeError(message.format(self.__class__.__name__, key))\nAttributeError: 'State' object has no attribute 'user'\n",
+    "request_method": "GET",
+    "request_url": "http://127.0.0.1:5000/profile",
+    "request_remote_addr": "127.0.0.1",
+    "request_headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "d1671f7e-31c3-4db8-b597-8fa4a3fb6c90",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:21:56,146 - INFO - Request: {
+    "timestamp": "2024-12-26 11:21:56",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "0f7724fa-f344-4290-b13d-7b1b4823285b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:21:56,149 - INFO - Response: {
+    "timestamp": "2024-12-26 11:21:56",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:23:03,183 - INFO - Request: {
+    "timestamp": "2024-12-26 11:23:03",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "ddc2b1ac-77d0-40dd-82c9-d8dd85cc3d69",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:23:03,184 - INFO - Response: {
+    "timestamp": "2024-12-26 11:23:03",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:23:47,053 - INFO - Request: {
+    "timestamp": "2024-12-26 11:23:47",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "eed406bc-88d3-46e3-a9d7-fb04bccf9a5e",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:23:47,054 - INFO - Response: {
+    "timestamp": "2024-12-26 11:23:47",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:24:04,120 - INFO - Request: {
+    "timestamp": "2024-12-26 11:24:04",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "65502f12-4d0b-433d-8b89-90855a072fd5",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:24:04,122 - INFO - Response: {
+    "timestamp": "2024-12-26 11:24:04",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:28:34,113 - INFO - Request: {
+    "timestamp": "2024-12-26 11:28:34",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "acfa29bc-7926-4dd1-9b12-a7fbd04d2210",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 11:28:34,115 - INFO - Response: {
+    "timestamp": "2024-12-26 11:28:34",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:29:39,917 - INFO - Request: {
+    "timestamp": "2024-12-26 11:29:39",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "96679f7f-84f3-47bc-a5e2-93af88114a0b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 11:29:39,918 - INFO - Response: {
+    "timestamp": "2024-12-26 11:29:39",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": null,
+    "user_role": null
+} 
+2024-12-26 11:31:50,031 - INFO - Request: {
+    "timestamp": "2024-12-26 11:31:50",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUxOTM4MTN9.-LO_QRhmSxQJ-8YYXfv6s2sPwNS9txSilbp0-T3Fwrw",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "a630f34d-bfe0-41f2-906f-bc6a6d4b0011",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 11:31:50,032 - INFO - Response: {
+    "timestamp": "2024-12-26 11:31:50",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:47:38,829 - INFO - Request: {
+    "timestamp": "2024-12-26 14:47:38",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "11525449-6a4a-4e49-a09c-e31960eddbaf",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "148"
+    },
+    "query_params": {},
+    "body": {
+        "name": "john",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "riya@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:47:43,142 - INFO - Response: {
+    "timestamp": "2024-12-26 14:47:43",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "78",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:48:15,369 - INFO - Request: {
+    "timestamp": "2024-12-26 14:48:15",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "07c0be32-796a-4cde-aa02-34d01dd4fa4b",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:48:19,664 - INFO - Response: {
+    "timestamp": "2024-12-26 14:48:19",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:48:22,966 - INFO - Request: {
+    "timestamp": "2024-12-26 14:48:22",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUyMDgyOTl9.6i8Daqcsuwid4IYgQ9aq6rhIEIs5qvp0HtURwfrtQIs",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "b4b5c4e9-647b-41dc-8ae7-de5b29e73c24",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:48:22,967 - INFO - Response: {
+    "timestamp": "2024-12-26 14:48:22",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/profile",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "236",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:48:39,767 - INFO - Request: {
+    "timestamp": "2024-12-26 14:48:39",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "e6a59d0e-2f76-42ad-8543-ee74c7762d4a",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "70"
+    },
+    "query_params": {},
+    "body": {
+        "email": "localeyes22@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:48:44,043 - INFO - Response: {
+    "timestamp": "2024-12-26 14:48:44",
+    "status_code": 200,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "291",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:48:47,300 - INFO - Request: {
+    "timestamp": "2024-12-26 14:48:47",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUyMDgzMjR9.k3Req3Y-pyL22mfgcnDd7MzRr9guDCMb8ctCiO0J9V8",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "5c629ed8-7d30-4f06-b5aa-79118aeffda4",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "205"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Antonia_OConnell@gmail.com",
+        "phone_no": "365-618-0326",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Amelia_Friesen47"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:48:47,302 - INFO - Response: {
+    "timestamp": "2024-12-26 14:48:47",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "48",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:48:55,176 - INFO - Request: {
+    "timestamp": "2024-12-26 14:48:55",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUyMDgzMjR9.k3Req3Y-pyL22mfgcnDd7MzRr9guDCMb8ctCiO0J9V8",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "382a0724-0220-41c9-9451-d3d08d5c56e9",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "189"
+    },
+    "query_params": {},
+    "body": {
+        "email": "Kaci_King@yahoo.com",
+        "phone_no": "883-682-3241",
+        "address": "random address",
+        "details": "can accept money as well as donatable items",
+        "name": "Norma72"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:48:59,401 - INFO - Response: {
+    "timestamp": "2024-12-26 14:48:59",
+    "status_code": 201,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/admin/ngo",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "52",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:49:19,821 - INFO - Request: {
+    "timestamp": "2024-12-26 14:49:19",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/all",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUyMDgzMjR9.k3Req3Y-pyL22mfgcnDd7MzRr9guDCMb8ctCiO0J9V8",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "95c799f5-05b3-4546-800a-a6f267e42bce",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:49:19,822 - INFO - Response: {
+    "timestamp": "2024-12-26 14:49:19",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/all",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "1243",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:49:28,702 - INFO - Request: {
+    "timestamp": "2024-12-26 14:49:28",
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/5f2ac1ac-8fe7-47d4-88a5-f75df1bccf35",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiODcyY2ExYjgtM2E2Yi00NTMwLWE4NmYtN2U3M2NjMzRmNWYyIiwiZW1haWwiOiJsb2NhbGV5ZXMyMkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MzUyMDgzMjR9.k3Req3Y-pyL22mfgcnDd7MzRr9guDCMb8ctCiO0J9V8",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "685f72b0-b911-462c-85bf-6c9b45058129",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:49:28,704 - INFO - Response: {
+    "timestamp": "2024-12-26 14:49:28",
+    "status_code": 200,
+    "method": "GET",
+    "url": "http://127.0.0.1:5000/ngo/5f2ac1ac-8fe7-47d4-88a5-f75df1bccf35",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "273",
+        "content-type": "application/json"
+    },
+    "user_id": "872ca1b8-3a6b-4530-a86f-7e73cc34f5f2",
+    "user_role": "admin"
+} 
+2024-12-26 14:53:25,618 - INFO - Request: {
+    "timestamp": "2024-12-26 14:53:25",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "e1892326-4327-465c-bc81-100efb8c2496",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "145"
+    },
+    "query_params": {},
+    "body": {
+        "name": "j",
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "riya@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:53:25,619 - INFO - Response: {
+    "timestamp": "2024-12-26 14:53:25",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "48",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:53:34,381 - INFO - Request: {
+    "timestamp": "2024-12-26 14:53:34",
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "remote_addr": "127.0.0.1",
+    "headers": {
+        "content-type": "application/json",
+        "user-agent": "PostmanRuntime/7.43.0",
+        "accept": "*/*",
+        "postman-token": "1bcfc0ea-a12b-4183-981f-a58763ce8a2d",
+        "host": "127.0.0.1:5000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "134"
+    },
+    "query_params": {},
+    "body": {
+        "address": "paramount,sector-137",
+        "phone_no": "9999999999",
+        "password": "****",
+        "email": "riya@gmail.com"
+    },
+    "user_agent": "PostmanRuntime/7.43.0",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 14:53:38,604 - INFO - Response: {
+    "timestamp": "2024-12-26 14:53:38",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://127.0.0.1:5000/signup",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "191",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 16:55:46,526 - INFO - Request: {
+    "timestamp": "2024-12-26 16:55:46",
+    "method": "GET",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 16:55:46,527 - INFO - Response: {
+    "timestamp": "2024-12-26 16:55:46",
+    "status_code": 405,
+    "method": "GET",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "allow": "POST",
+        "content-length": "31",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 16:57:04,135 - INFO - Request: {
+    "timestamp": "2024-12-26 16:57:04",
+    "method": "GET",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 16:57:04,136 - INFO - Response: {
+    "timestamp": "2024-12-26 16:57:04",
+    "status_code": 405,
+    "method": "GET",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "allow": "POST",
+        "content-length": "31",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:03:14,583 - INFO - Request: {
+    "timestamp": "2024-12-26 17:03:14",
+    "method": "GET",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:03:14,585 - INFO - Response: {
+    "timestamp": "2024-12-26 17:03:14",
+    "status_code": 405,
+    "method": "GET",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "allow": "POST",
+        "content-length": "31",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:07:57,887 - INFO - Request: {
+    "timestamp": "2024-12-26 17:07:57",
+    "method": "POST",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "content-length": "0",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:07:57,890 - INFO - Response: {
+    "timestamp": "2024-12-26 17:07:57",
+    "status_code": 422,
+    "method": "POST",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "82",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:17,119 - INFO - Request: {
+    "timestamp": "2024-12-26 17:12:17",
+    "method": "POST",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient",
+        "content-length": "51",
+        "content-type": "application/json"
+    },
+    "query_params": {},
+    "body": {
+        "email": "test@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:21,505 - INFO - Response: {
+    "timestamp": "2024-12-26 17:12:21",
+    "status_code": 401,
+    "method": "POST",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "49",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:21,514 - INFO - Request: {
+    "timestamp": "2024-12-26 17:12:21",
+    "method": "GET",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:21,515 - INFO - Response: {
+    "timestamp": "2024-12-26 17:12:21",
+    "status_code": 405,
+    "method": "GET",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "allow": "POST",
+        "content-length": "31",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:52,865 - INFO - Request: {
+    "timestamp": "2024-12-26 17:12:52",
+    "method": "POST",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient",
+        "content-length": "51",
+        "content-type": "application/json"
+    },
+    "query_params": {},
+    "body": {
+        "email": "test@gmail.com",
+        "password": "****"
+    },
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:57,062 - INFO - Response: {
+    "timestamp": "2024-12-26 17:12:57",
+    "status_code": 401,
+    "method": "POST",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "49",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:57,073 - INFO - Request: {
+    "timestamp": "2024-12-26 17:12:57",
+    "method": "GET",
+    "url": "http://testserver/login",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:12:57,074 - INFO - Response: {
+    "timestamp": "2024-12-26 17:12:57",
+    "status_code": 405,
+    "method": "GET",
+    "url": "http://testserver/login",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "allow": "POST",
+        "content-length": "31",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:14:32,191 - INFO - Request: {
+    "timestamp": "2024-12-26 17:14:32",
+    "method": "GET",
+    "url": "http://testserver/",
+    "remote_addr": "testclient",
+    "headers": {
+        "host": "testserver",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "user-agent": "testclient"
+    },
+    "query_params": {},
+    "body": {},
+    "user_agent": "testclient",
+    "user_id": "",
+    "user_role": ""
+} 
+2024-12-26 17:14:32,192 - INFO - Response: {
+    "timestamp": "2024-12-26 17:14:32",
+    "status_code": 404,
+    "method": "GET",
+    "url": "http://testserver/",
+    "response_data": "Unable to decode response body",
+    "response_headers": {
+        "content-length": "22",
+        "content-type": "application/json"
+    },
+    "user_id": "",
+    "user_role": ""
+} 

@@ -4,11 +4,11 @@ from app.handlers.user_handler import UserHandler
 from app.models.login import UserLogin
 from app.models.user_dto import User_DTO
 from app.utils.errors.custom_errors import DatabaseError, InvalidCredentialsError, NotExistsError
-from config.config import DB_ERROR, INVALID_CREDENTIALS, ID_NOT_EXIST
+from app.config.config import DB_ERROR, INVALID_CREDENTIALS, ID_NOT_EXIST
 from flask import g, Flask
-from models.new_ngo import NewNGO
+from app.models.new_ngo import NewNGO
 from starlette.testclient import TestClient
-from utils.utilities.context import get_user_from_context
+from app.utils.utilities.context import get_user_from_context
 from werkzeug.exceptions import BadRequest, UnsupportedMediaType
 import pytest
 from app.handlers.main import create_app

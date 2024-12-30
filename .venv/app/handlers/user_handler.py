@@ -10,7 +10,7 @@ from app.utils.validators.validators import Validator
 from app.models.user_dto import User_DTO
 from app.utils.errors.custom_errors import DatabaseError, \
     InvalidCredentialsError, NotExistsError
-from utils.utilities.context import get_user_from_context
+from app.utils.utilities.context import get_user_from_context
 from werkzeug.exceptions import BadRequest, UnsupportedMediaType
 from dataclasses import fields
 
@@ -36,9 +36,6 @@ class UserHandler:
         except DatabaseError:
             return CustomResponse(status_code=DB_ERROR, message="Internal server error", http_status_code=500).to_response()
 
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
-
 
     def login(self, data: UserLogin):
         try:
@@ -51,9 +48,6 @@ class UserHandler:
         except DatabaseError:
             return CustomResponse(status_code=DB_ERROR, message="Internal server error", http_status_code=500).to_response()
 
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
-
 
     def get_list_of_ngos(self):
         try:
@@ -63,9 +57,6 @@ class UserHandler:
 
         except DatabaseError:
             return CustomResponse(status_code=DB_ERROR, message="Internal server error", http_status_code=500).to_response()
-
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
 
 
     def get_one_ngo(self, ngo_id):
@@ -78,7 +69,3 @@ class UserHandler:
 
         except DatabaseError:
             return CustomResponse(status_code=DB_ERROR, message="Internal server error", http_status_code=500).to_response()
-
-        except Exception:
-            return CustomResponse(status_code=UNEXPECTED_ERROR, message="Unexpected error",http_status_code=500).to_response()
-

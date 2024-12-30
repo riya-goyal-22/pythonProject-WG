@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="7" skipped="2" tests="9" time="2.928" timestamp="2024-12-27T12:01:42.143871+05:30" hostname="LAP-55341"><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_successful_get_request" time="0.043"><failure message="AssertionError: info(&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;) call not found">client = &lt;starlette.testclient.TestClient object at 0x00000193B60DBB60&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733926170176'&gt;
+
+    def test_successful_get_request(client, mock_logger):
+        response = client.get("/test")
+        assert response.status_code == 200
+    
+        # Verify request logging
+&gt;       mock_logger.info.assert_any_call(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"method": "GET"' in x and
+                          '"url": "http://testserver/test"' in x,
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B60DBB60&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733926170176'&gt;
+response   = &lt;Response [200 OK]&gt;
+
+test_logger_middleware.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.info' id='1733927404272'&gt;
+args = (&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;,)
+kwargs = {}
+expected = call(&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;)
+cause = None
+actual = [call('Request: {\n    "timestamp": "2024-12-27 12:01:43",\n    "method": "GET",\n    "url": "http://testserver/test",...ntent-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+expected_string = 'info(&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;)'
+
+    def assert_any_call(self, /, *args, **kwargs):
+        """assert the mock has been called with the specified arguments.
+    
+        The assert passes if the mock has *ever* been called, unlike
+        `assert_called_with` and `assert_called_once_with` that only pass if
+        the call is the most recent one."""
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        cause = expected if isinstance(expected, Exception) else None
+        actual = [self._call_matcher(c) for c in self.call_args_list]
+        if cause or expected not in _AnyComparer(actual):
+            expected_string = self._format_mock_call_signature(args, kwargs)
+&gt;           raise AssertionError(
+                '%s call not found' % expected_string
+            ) from cause
+E           AssertionError: info(&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;) call not found
+
+actual     = [call('Request: {\n    "timestamp": "2024-12-27 12:01:43",\n    "method": "GET",\n    "url": "http://testserver/test",\n    "remote_addr": "testclient",\n    "headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "query_params": {},\n    "body": {},\n    "user_agent": "testclient",\n    "user_id": "",\n    "user_role": ""\n}'),
+ call('Response: {\n    "timestamp": "2024-12-27 12:01:43",\n    "status_code": 200,\n    "method": "GET",\n    "url": "http://testserver/test",\n    "response_data": "Unable to decode response body",\n    "response_headers": {\n        "content-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+args       = (&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;,)
+cause      = None
+expected   = call(&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B613A660&gt;)
+expected_string = ('info(&lt;function test_successful_get_request.&lt;locals&gt;.&lt;lambda&gt; at '
+ '0x00000193B613A660&gt;)')
+kwargs     = {}
+self       = &lt;Mock name='mock.info' id='1733927404272'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1048: AssertionError</failure></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_json_post_request" time="0.014"><failure message="AssertionError: info(&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;) call not found">client = &lt;starlette.testclient.TestClient object at 0x00000193B61FCB90&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927408640'&gt;
+
+    def test_json_post_request(client, mock_logger):
+        test_data = {"key": "value"}
+        response = client.post("/test-json", json=test_data)
+        assert response.status_code == 200
+    
+        # Verify request body was logged
+&gt;       mock_logger.info.assert_any_call(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"body": {"key": "value"}' in x,
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B61FCB90&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927408640'&gt;
+response   = &lt;Response [200 OK]&gt;
+test_data  = {'key': 'value'}
+
+test_logger_middleware.py:81: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.info' id='1733927409312'&gt;
+args = (&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;,)
+kwargs = {}
+expected = call(&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;)
+cause = None
+actual = [call('Request: {\n    "timestamp": "2024-12-27 12:01:43",\n    "method": "POST",\n    "url": "http://testserver/test-...ntent-length": "28",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+expected_string = 'info(&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;)'
+
+    def assert_any_call(self, /, *args, **kwargs):
+        """assert the mock has been called with the specified arguments.
+    
+        The assert passes if the mock has *ever* been called, unlike
+        `assert_called_with` and `assert_called_once_with` that only pass if
+        the call is the most recent one."""
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        cause = expected if isinstance(expected, Exception) else None
+        actual = [self._call_matcher(c) for c in self.call_args_list]
+        if cause or expected not in _AnyComparer(actual):
+            expected_string = self._format_mock_call_signature(args, kwargs)
+&gt;           raise AssertionError(
+                '%s call not found' % expected_string
+            ) from cause
+E           AssertionError: info(&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;) call not found
+
+actual     = [call('Request: {\n    "timestamp": "2024-12-27 12:01:43",\n    "method": "POST",\n    "url": "http://testserver/test-json",\n    "remote_addr": "testclient",\n    "headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient",\n        "content-length": "15",\n        "content-type": "application/json"\n    },\n    "query_params": {},\n    "body": {\n        "key": "value"\n    },\n    "user_agent": "testclient",\n    "user_id": "",\n    "user_role": ""\n}'),
+ call('Response: {\n    "timestamp": "2024-12-27 12:01:43",\n    "status_code": 200,\n    "method": "POST",\n    "url": "http://testserver/test-json",\n    "response_data": "Unable to decode response body",\n    "response_headers": {\n        "content-length": "28",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+args       = (&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;,)
+cause      = None
+expected   = call(&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B6226B60&gt;)
+expected_string = ('info(&lt;function test_json_post_request.&lt;locals&gt;.&lt;lambda&gt; at '
+ '0x00000193B6226B60&gt;)')
+kwargs     = {}
+self       = &lt;Mock name='mock.info' id='1733927409312'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1048: AssertionError</failure></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_streaming_response" time="0.022"><failure message="AssertionError: info(&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;) call not found">client = &lt;starlette.testclient.TestClient object at 0x00000193B61FF890&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927409984'&gt;
+
+    def test_streaming_response(client, mock_logger):
+        response = client.get("/test-stream")
+        assert response.status_code == 200
+    
+        # Verify streaming response was logged appropriately
+&gt;       mock_logger.info.assert_any_call(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"response_data": "Streaming response - content not logged"' in x,
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B61FF890&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927409984'&gt;
+response   = &lt;Response [200 OK]&gt;
+
+test_logger_middleware.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.info' id='1733927410992'&gt;
+args = (&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;,)
+kwargs = {}
+expected = call(&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;)
+cause = None
+actual = [call('Request: {\n    "timestamp": "2024-12-27 12:01:43",\n    "method": "GET",\n    "url": "http://testserver/test-s...se_data": "Unable to decode response body",\n    "response_headers": {},\n    "user_id": "",\n    "user_role": ""\n}')]
+expected_string = 'info(&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;)'
+
+    def assert_any_call(self, /, *args, **kwargs):
+        """assert the mock has been called with the specified arguments.
+    
+        The assert passes if the mock has *ever* been called, unlike
+        `assert_called_with` and `assert_called_once_with` that only pass if
+        the call is the most recent one."""
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        cause = expected if isinstance(expected, Exception) else None
+        actual = [self._call_matcher(c) for c in self.call_args_list]
+        if cause or expected not in _AnyComparer(actual):
+            expected_string = self._format_mock_call_signature(args, kwargs)
+&gt;           raise AssertionError(
+                '%s call not found' % expected_string
+            ) from cause
+E           AssertionError: info(&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;) call not found
+
+actual     = [call('Request: {\n    "timestamp": "2024-12-27 12:01:43",\n    "method": "GET",\n    "url": "http://testserver/test-stream",\n    "remote_addr": "testclient",\n    "headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "query_params": {},\n    "body": {},\n    "user_agent": "testclient",\n    "user_id": "",\n    "user_role": ""\n}'),
+ call('Response: {\n    "timestamp": "2024-12-27 12:01:43",\n    "status_code": 200,\n    "method": "GET",\n    "url": "http://testserver/test-stream",\n    "response_data": "Unable to decode response body",\n    "response_headers": {},\n    "user_id": "",\n    "user_role": ""\n}')]
+args       = (&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;,)
+cause      = None
+expected   = call(&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62F9120&gt;)
+expected_string = ('info(&lt;function test_streaming_response.&lt;locals&gt;.&lt;lambda&gt; at '
+ '0x00000193B62F9120&gt;)')
+kwargs     = {}
+self       = &lt;Mock name='mock.info' id='1733927410992'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1048: AssertionError</failure></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_error_handling" time="0.076"><failure message="AssertionError: expected call not found.&#10;Expected: error(&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;)&#10;  Actual: error('Exception: {\n    &quot;timestamp&quot;: &quot;2024-12-27 12:01:44&quot;,\n    &quot;error_message&quot;: &quot;Test error&quot;,\n    &quot;traceback&quot;: &quot;Traceback (most recent call last):\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\&quot;, line 157, in call_next\\n    message = await recv_stream.receive()\\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\anyio\\\\streams\\\\memory.py\\&quot;, line 111, in receive\\n    return self.receive_nowait()\\n           ~~~~~~~~~~~~~~~~~~~^^\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\anyio\\\\streams\\\\memory.py\\&quot;, line 104, in receive_nowait\\n    raise EndOfStream\\nanyio.EndOfStream\\n\\nDuring handling of the above exception, another exception occurred:\\n\\nTraceback (most recent call last):\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\app\\\\middlewares\\\\logger_middleware.py\\&quot;, line 105, in dispatch\\n    response = await call_next(request)\\n               ^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\&quot;, line 163, in call_next\\n    raise app_exc\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\&quot;, line 149, in coro\\n    await self.app(scope, receive_or_disconnect, send_no_error)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\exceptions.py\\&quot;, line 62, in __call__\\n    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\&quot;, line 53, in wrapped_app\\n    raise exc\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\&quot;, line 42, in wrapped_app\\n    await app(scope, receive, sender)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\&quot;, line 715, in __call__\\n    await self.middleware_stack(scope, receive, send)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\&quot;, line 735, in app\\n    await route.handle(scope, receive, send)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\&quot;, line 288, in handle\\n    await self.app(scope, receive, send)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\&quot;, line 76, in app\\n    await wrap_app_handling_exceptions(app, request)(scope, receive, send)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\&quot;, line 53, in wrapped_app\\n    raise exc\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\&quot;, line 42, in wrapped_app\\n    await app(scope, receive, sender)\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\&quot;, line 73, in app\\n    response = await f(request)\\n               ^^^^^^^^^^^^^^^^\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\fastapi\\\\routing.py\\&quot;, line 301, in app\\n    raw_response = await run_endpoint_function(\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n    ...&lt;3 lines&gt;...\\n    )\\n    ^\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\fastapi\\\\routing.py\\&quot;, line 212, in run_endpoint_function\\n    return await dependant.call(**values)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\&quot;C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\tests\\\\middlewares_tests\\\\test_logger_middleware.py\\&quot;, line 40, in test_error_endpoint\\n    raise ValueError(\\&quot;Test error\\&quot;)\\nValueError: Test error\\n&quot;,\n    &quot;request_method&quot;: &quot;GET&quot;,\n    &quot;request_url&quot;: &quot;http://testserver/test-error&quot;,\n    &quot;request_remote_addr&quot;: &quot;testclient&quot;,\n    &quot;request_headers&quot;: {\n        &quot;host&quot;: &quot;testserver&quot;,\n        &quot;accept&quot;: &quot;*/*&quot;,\n        &quot;accept-encoding&quot;: &quot;gzip, deflate&quot;,\n        &quot;connection&quot;: &quot;keep-alive&quot;,\n        &quot;user-agent&quot;: &quot;testclient&quot;\n    },\n    &quot;user_id&quot;: null,\n    &quot;user_role&quot;: null\n}')">client = &lt;starlette.testclient.TestClient object at 0x00000193B62B9CD0&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927408304'&gt;
+
+    def test_error_handling(client, mock_logger):
+        response = client.get("/test-error")
+        assert response.status_code == 500
+    
+        # Verify error logging
+&gt;       mock_logger.error.assert_called_once_with(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"error_message": "Test error"' in x and
+                          'traceback' in x,
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B62B9CD0&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927408304'&gt;
+response   = &lt;Response [500 Internal Server Error]&gt;
+
+test_logger_middleware.py:109: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:989: in assert_called_once_with
+    return self.assert_called_with(*args, **kwargs)
+        args       = (&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;,)
+        kwargs     = {}
+        self       = &lt;Mock name='mock.error' id='1733927413680'&gt;
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.error' id='1733927413680'&gt;
+args = (&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;,)
+kwargs = {}
+expected = call(&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;)
+actual = call('Exception: {\n    "timestamp": "2024-12-27 12:01:44",\n    "error_message": "Test error",\n    "traceback": "Tra...onnection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "user_id": null,\n    "user_role": null\n}')
+_error_message = &lt;function NonCallableMock.assert_called_with.&lt;locals&gt;._error_message at 0x00000193B62FAFC0&gt;
+cause = None
+
+    def assert_called_with(self, /, *args, **kwargs):
+        """assert that the last call was made with the specified arguments.
+    
+        Raises an AssertionError if the args and keyword args passed in are
+        different to the last call to the mock."""
+        if self.call_args is None:
+            expected = self._format_mock_call_signature(args, kwargs)
+            actual = 'not called.'
+            error_message = ('expected call not found.\nExpected: %s\n  Actual: %s'
+                    % (expected, actual))
+            raise AssertionError(error_message)
+    
+        def _error_message():
+            msg = self._format_mock_failure_message(args, kwargs)
+            return msg
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        actual = self._call_matcher(self.call_args)
+        if actual != expected:
+            cause = expected if isinstance(expected, Exception) else None
+&gt;           raise AssertionError(_error_message()) from cause
+E           AssertionError: expected call not found.
+E           Expected: error(&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;)
+E             Actual: error('Exception: {\n    "timestamp": "2024-12-27 12:01:44",\n    "error_message": "Test error",\n    "traceback": "Traceback (most recent call last):\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\", line 157, in call_next\\n    message = await recv_stream.receive()\\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\anyio\\\\streams\\\\memory.py\\", line 111, in receive\\n    return self.receive_nowait()\\n           ~~~~~~~~~~~~~~~~~~~^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\anyio\\\\streams\\\\memory.py\\", line 104, in receive_nowait\\n    raise EndOfStream\\nanyio.EndOfStream\\n\\nDuring handling of the above exception, another exception occurred:\\n\\nTraceback (most recent call last):\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\app\\\\middlewares\\\\logger_middleware.py\\", line 105, in dispatch\\n    response = await call_next(request)\\n               ^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\", line 163, in call_next\\n    raise app_exc\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\", line 149, in coro\\n    await self.app(scope, receive_or_disconnect, send_no_error)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\exceptions.py\\", line 62, in __call__\\n    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 53, in wrapped_app\\n    raise exc\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 42, in wrapped_app\\n    await app(scope, receive, sender)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 715, in __call__\\n    await self.middleware_stack(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 735, in app\\n    await route.handle(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 288, in handle\\n    await self.app(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 76, in app\\n    await wrap_app_handling_exceptions(app, request)(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 53, in wrapped_app\\n    raise exc\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 42, in wrapped_app\\n    await app(scope, receive, sender)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 73, in app\\n    response = await f(request)\\n               ^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\fastapi\\\\routing.py\\", line 301, in app\\n    raw_response = await run_endpoint_function(\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n    ...&lt;3 lines&gt;...\\n    )\\n    ^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\fastapi\\\\routing.py\\", line 212, in run_endpoint_function\\n    return await dependant.call(**values)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\tests\\\\middlewares_tests\\\\test_logger_middleware.py\\", line 40, in test_error_endpoint\\n    raise ValueError(\\"Test error\\")\\nValueError: Test error\\n",\n    "request_method": "GET",\n    "request_url": "http://testserver/test-error",\n    "request_remote_addr": "testclient",\n    "request_headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "user_id": null,\n    "user_role": null\n}')
+
+_error_message = &lt;function NonCallableMock.assert_called_with.&lt;locals&gt;._error_message at 0x00000193B62FAFC0&gt;
+actual     = call('Exception: {\n    "timestamp": "2024-12-27 12:01:44",\n    "error_message": "Test error",\n    "traceback": "Traceback (most recent call last):\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\", line 157, in call_next\\n    message = await recv_stream.receive()\\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\anyio\\\\streams\\\\memory.py\\", line 111, in receive\\n    return self.receive_nowait()\\n           ~~~~~~~~~~~~~~~~~~~^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\anyio\\\\streams\\\\memory.py\\", line 104, in receive_nowait\\n    raise EndOfStream\\nanyio.EndOfStream\\n\\nDuring handling of the above exception, another exception occurred:\\n\\nTraceback (most recent call last):\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\app\\\\middlewares\\\\logger_middleware.py\\", line 105, in dispatch\\n    response = await call_next(request)\\n               ^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\", line 163, in call_next\\n    raise app_exc\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\base.py\\", line 149, in coro\\n    await self.app(scope, receive_or_disconnect, send_no_error)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\middleware\\\\exceptions.py\\", line 62, in __call__\\n    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 53, in wrapped_app\\n    raise exc\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 42, in wrapped_app\\n    await app(scope, receive, sender)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 715, in __call__\\n    await self.middleware_stack(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 735, in app\\n    await route.handle(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 288, in handle\\n    await self.app(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 76, in app\\n    await wrap_app_handling_exceptions(app, request)(scope, receive, send)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 53, in wrapped_app\\n    raise exc\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\_exception_handler.py\\", line 42, in wrapped_app\\n    await app(scope, receive, sender)\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\starlette\\\\routing.py\\", line 73, in app\\n    response = await f(request)\\n               ^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\fastapi\\\\routing.py\\", line 301, in app\\n    raw_response = await run_endpoint_function(\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n    ...&lt;3 lines&gt;...\\n    )\\n    ^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\Lib\\\\site-packages\\\\fastapi\\\\routing.py\\", line 212, in run_endpoint_function\\n    return await dependant.call(**values)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\"C:\\\\Users\\\\rgoyal\\\\PycharmProjects\\\\NGO_Management\\\\.venv\\\\tests\\\\middlewares_tests\\\\test_logger_middleware.py\\", line 40, in test_error_endpoint\\n    raise ValueError(\\"Test error\\")\\nValueError: Test error\\n",\n    "request_method": "GET",\n    "request_url": "http://testserver/test-error",\n    "request_remote_addr": "testclient",\n    "request_headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "user_id": null,\n    "user_role": null\n}')
+args       = (&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;,)
+cause      = None
+expected   = call(&lt;function test_error_handling.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B62FB060&gt;)
+kwargs     = {}
+self       = &lt;Mock name='mock.error' id='1733927413680'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:977: AssertionError</failure></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_get_request_body_form_data" time="0.003"><skipped type="pytest.skip" message="async def function and no async plugin installed (see warnings)">C:\Users\rgoyal\PycharmProjects\NGO_Management\.venv\Lib\site-packages\_pytest\python.py:149: async def function and no async plugin installed (see warnings)</skipped></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_get_request_body_invalid" time="0.002"><skipped type="pytest.skip" message="async def function and no async plugin installed (see warnings)">C:\Users\rgoyal\PycharmProjects\NGO_Management\.venv\Lib\site-packages\_pytest\python.py:149: async def function and no async plugin installed (see warnings)</skipped></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_request_with_user_context" time="0.014"><failure message="AssertionError: info(&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;) call not found">mock_get_user = &lt;MagicMock name='get_user_from_context' id='1733927416704'&gt;
+client = &lt;starlette.testclient.TestClient object at 0x00000193B62BAFD0&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927415696'&gt;
+
+    @patch('app.utils.utilities.context.get_user_from_context')
+    def test_request_with_user_context(mock_get_user, client, mock_logger):
+        mock_get_user.return_value = {
+            "user_id": "test_user",
+            "role": "admin"
+        }
+    
+        response = client.get("/test")
+        assert response.status_code == 200
+    
+        # Verify user context was logged
+&gt;       mock_logger.info.assert_any_call(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"user_id": "test_user"' in x and
+                          '"user_role": "admin"' in x,
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B62BAFD0&gt;
+mock_get_user = &lt;MagicMock name='get_user_from_context' id='1733927416704'&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927415696'&gt;
+response   = &lt;Response [200 OK]&gt;
+
+test_logger_middleware.py:158: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.info' id='1733927417712'&gt;
+args = (&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;,)
+kwargs = {}
+expected = call(&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;)
+cause = None
+actual = [call('Request: {\n    "timestamp": "2024-12-27 12:01:44",\n    "method": "GET",\n    "url": "http://testserver/test",...ntent-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+expected_string = 'info(&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;)'
+
+    def assert_any_call(self, /, *args, **kwargs):
+        """assert the mock has been called with the specified arguments.
+    
+        The assert passes if the mock has *ever* been called, unlike
+        `assert_called_with` and `assert_called_once_with` that only pass if
+        the call is the most recent one."""
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        cause = expected if isinstance(expected, Exception) else None
+        actual = [self._call_matcher(c) for c in self.call_args_list]
+        if cause or expected not in _AnyComparer(actual):
+            expected_string = self._format_mock_call_signature(args, kwargs)
+&gt;           raise AssertionError(
+                '%s call not found' % expected_string
+            ) from cause
+E           AssertionError: info(&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;) call not found
+
+actual     = [call('Request: {\n    "timestamp": "2024-12-27 12:01:44",\n    "method": "GET",\n    "url": "http://testserver/test",\n    "remote_addr": "testclient",\n    "headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "query_params": {},\n    "body": {},\n    "user_agent": "testclient",\n    "user_id": "",\n    "user_role": ""\n}'),
+ call('Response: {\n    "timestamp": "2024-12-27 12:01:44",\n    "status_code": 200,\n    "method": "GET",\n    "url": "http://testserver/test",\n    "response_data": "Unable to decode response body",\n    "response_headers": {\n        "content-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+args       = (&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;,)
+cause      = None
+expected   = call(&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B34DC9A0&gt;)
+expected_string = ('info(&lt;function test_request_with_user_context.&lt;locals&gt;.&lt;lambda&gt; at '
+ '0x00000193B34DC9A0&gt;)')
+kwargs     = {}
+self       = &lt;Mock name='mock.info' id='1733927417712'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1048: AssertionError</failure></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_request_headers_logging" time="0.017"><failure message="AssertionError: info(&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;) call not found">client = &lt;starlette.testclient.TestClient object at 0x00000193B62C68D0&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927414352'&gt;
+
+    def test_request_headers_logging(client, mock_logger):
+        custom_headers = {
+            "X-Custom-Header": "test_value",
+            "User-Agent": "test_agent"
+        }
+    
+        response = client.get("/test", headers=custom_headers)
+        assert response.status_code == 200
+    
+        # Verify headers were logged
+&gt;       mock_logger.info.assert_any_call(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"headers": {' in x and
+                          '"x-custom-header": "test_value"' in x.lower() and
+                          '"user-agent": "test_agent"' in x.lower(),
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B62C68D0&gt;
+custom_headers = {'User-Agent': 'test_agent', 'X-Custom-Header': 'test_value'}
+mock_logger = &lt;Mock spec='Logger' id='1733927414352'&gt;
+response   = &lt;Response [200 OK]&gt;
+
+test_logger_middleware.py:178: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.info' id='1733927414688'&gt;
+args = (&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;,)
+kwargs = {}
+expected = call(&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;)
+cause = None
+actual = [call('Request: {\n    "timestamp": "2024-12-27 12:01:44",\n    "method": "GET",\n    "url": "http://testserver/test",...ntent-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+expected_string = 'info(&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;)'
+
+    def assert_any_call(self, /, *args, **kwargs):
+        """assert the mock has been called with the specified arguments.
+    
+        The assert passes if the mock has *ever* been called, unlike
+        `assert_called_with` and `assert_called_once_with` that only pass if
+        the call is the most recent one."""
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        cause = expected if isinstance(expected, Exception) else None
+        actual = [self._call_matcher(c) for c in self.call_args_list]
+        if cause or expected not in _AnyComparer(actual):
+            expected_string = self._format_mock_call_signature(args, kwargs)
+&gt;           raise AssertionError(
+                '%s call not found' % expected_string
+            ) from cause
+E           AssertionError: info(&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;) call not found
+
+actual     = [call('Request: {\n    "timestamp": "2024-12-27 12:01:44",\n    "method": "GET",\n    "url": "http://testserver/test",\n    "remote_addr": "testclient",\n    "headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "x-custom-header": "test_value",\n        "user-agent": "test_agent"\n    },\n    "query_params": {},\n    "body": {},\n    "user_agent": "test_agent",\n    "user_id": "",\n    "user_role": ""\n}'),
+ call('Response: {\n    "timestamp": "2024-12-27 12:01:44",\n    "status_code": 200,\n    "method": "GET",\n    "url": "http://testserver/test",\n    "response_data": "Unable to decode response body",\n    "response_headers": {\n        "content-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+args       = (&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;,)
+cause      = None
+expected   = call(&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B624BBA0&gt;)
+expected_string = ('info(&lt;function test_request_headers_logging.&lt;locals&gt;.&lt;lambda&gt; at '
+ '0x00000193B624BBA0&gt;)')
+kwargs     = {}
+self       = &lt;Mock name='mock.info' id='1733927414688'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1048: AssertionError</failure></testcase><testcase classname="tests.middlewares_tests.test_logger_middleware" name="test_query_params_logging" time="0.011"><failure message="AssertionError: info(&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;) call not found">client = &lt;starlette.testclient.TestClient object at 0x00000193B624EF10&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927415024'&gt;
+
+    def test_query_params_logging(client, mock_logger):
+        response = client.get("/test?param1=value1&amp;param2=value2")
+        assert response.status_code == 200
+    
+        # Verify query parameters were logged
+&gt;       mock_logger.info.assert_any_call(
+            pytest.approx(
+                lambda x: isinstance(x, str) and
+                          '"query_params": {' in x and
+                          '"param1": "value1"' in x and
+                          '"param2": "value2"' in x,
+                abs=1
+            )
+        )
+
+client     = &lt;starlette.testclient.TestClient object at 0x00000193B624EF10&gt;
+mock_logger = &lt;Mock spec='Logger' id='1733927415024'&gt;
+response   = &lt;Response [200 OK]&gt;
+
+test_logger_middleware.py:194: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;Mock name='mock.info' id='1733927419056'&gt;
+args = (&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;,)
+kwargs = {}
+expected = call(&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;)
+cause = None
+actual = [call('Request: {\n    "timestamp": "2024-12-27 12:01:44",\n    "method": "GET",\n    "url": "http://testserver/test?p...ntent-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+expected_string = 'info(&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;)'
+
+    def assert_any_call(self, /, *args, **kwargs):
+        """assert the mock has been called with the specified arguments.
+    
+        The assert passes if the mock has *ever* been called, unlike
+        `assert_called_with` and `assert_called_once_with` that only pass if
+        the call is the most recent one."""
+        expected = self._call_matcher(_Call((args, kwargs), two=True))
+        cause = expected if isinstance(expected, Exception) else None
+        actual = [self._call_matcher(c) for c in self.call_args_list]
+        if cause or expected not in _AnyComparer(actual):
+            expected_string = self._format_mock_call_signature(args, kwargs)
+&gt;           raise AssertionError(
+                '%s call not found' % expected_string
+            ) from cause
+E           AssertionError: info(&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;) call not found
+
+actual     = [call('Request: {\n    "timestamp": "2024-12-27 12:01:44",\n    "method": "GET",\n    "url": "http://testserver/test?param1=value1&amp;param2=value2",\n    "remote_addr": "testclient",\n    "headers": {\n        "host": "testserver",\n        "accept": "*/*",\n        "accept-encoding": "gzip, deflate",\n        "connection": "keep-alive",\n        "user-agent": "testclient"\n    },\n    "query_params": {\n        "param1": "value1",\n        "param2": "value2"\n    },\n    "body": {},\n    "user_agent": "testclient",\n    "user_id": "",\n    "user_role": ""\n}'),
+ call('Response: {\n    "timestamp": "2024-12-27 12:01:44",\n    "status_code": 200,\n    "method": "GET",\n    "url": "http://testserver/test?param1=value1&amp;param2=value2",\n    "response_data": "Unable to decode response body",\n    "response_headers": {\n        "content-length": "21",\n        "content-type": "application/json"\n    },\n    "user_id": "",\n    "user_role": ""\n}')]
+args       = (&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;,)
+cause      = None
+expected   = call(&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at 0x00000193B61A3A60&gt;)
+expected_string = ('info(&lt;function test_query_params_logging.&lt;locals&gt;.&lt;lambda&gt; at '
+ '0x00000193B61A3A60&gt;)')
+kwargs     = {}
+self       = &lt;Mock name='mock.info' id='1733927419056'&gt;
+
+..\..\..\..\..\AppData\Local\Programs\Python\Python313\Lib\unittest\mock.py:1048: AssertionError</failure></testcase></testsuite></testsuites>

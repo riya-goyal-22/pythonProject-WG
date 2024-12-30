@@ -1,7 +1,7 @@
 import pytest
 import datetime
 import jwt
-from config.config import SECRET_KEY
+from app.config.config import SECRET_KEY
 from fastapi import FastAPI, Request
 from fastapi.testclient import TestClient
 from unittest.mock import patch, MagicMock
@@ -41,12 +41,16 @@ client = TestClient(app)
 
 def create_token(user_id="test-user", role=Role.DONOR.value, expired=False):
     """Helper function to create JWT tokens for testing"""
+    if expired:
+        # Set expiration time to 1 hour in the past for an expired token
+        expiration_time = datetime.datetime.utcnow() - datetime.timedelta(hours=1)
+    else:
+        # Token expires in 1 hour from now
+        expiration_time = datetime.datetime.utcnow() + datetime.timedelta(hours=1)
     payload = {
         "user_id": user_id,
         "role": role,
-        'exp': datetime.datetime.utcnow() + datetime.timedelta(hours=1), # Token expires in 1 hour
-        "iat": datetime.datetime.utcnow(),  # Issued at
-        "nbf": datetime.datetime.utcnow(),  # Not before
+        'exp': expiration_time,
     }
     return jwt.encode(payload, SECRET_KEY, algorithm="HS256")
 
@@ -142,22 +146,23 @@ class TestAuthMiddleware:
         assert response.json()["status_code"] == TOKEN_INVALID
         assert "invalid token" in response.json()["message"]
 
-    @patch('app.utils.utilities.token.decode_token')
+    @patch('app.middlewares.auth_middleware.decode_token')
     def test_unexpected_error(self,mock_decode_token):
         # Arrange
+        token = create_token()
         mock_decode_token.side_effect = Exception("Unexpected error")
 
         # Act
         response = client.get(
             "/protected",
-            headers={"Authorization": f"Bearer {self.valid_token}"}
+            headers={"Authorization": f"Bearer {token}"}
         )
 
         # Assert
         assert response.status_code == 401
         assert response.json()["status_code"] == TOKEN_INVALID
 
-    @patch('app.utils.utilities.context.set_user_to_context')
+    @patch('app.middlewares.auth_middleware.set_user_to_context')
     def test_context_setting(self, mock_set_context):
         # Arrange
         token = create_token()
@@ -170,7 +175,8 @@ class TestAuthMiddleware:
         # Assert
         mock_set_context.assert_called_once()
         context_call = mock_set_context.call_args
-        assert context_call[1]['user_data']['user_id'] == "test-user"
-        assert context_call[1]['user_data']['role'] == Role.DONOR.value
+        user_data = context_call[0][1]
+        assert user_data['user_id'] == "test-user"
+        assert user_data['role'] == Role.DONOR.value
         assert response.status_code == 200
 
